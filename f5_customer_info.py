@@ -3,6 +3,7 @@ def customer_info(customers):
     email = input('Please enter an email address: ')
     for customer in customers:
         if customer["email"] == email:
+            print("Customer id:", customer['id'])
             print("Customer name:", customer['name'])
             print("Phone:", customer['phone'])
             print("Email:", customer['email'])
