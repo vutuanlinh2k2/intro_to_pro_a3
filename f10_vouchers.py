@@ -3,7 +3,8 @@ vouchers = {
     "SALE1212": 0.7,
     'LOVE101': 0.5,
     'ILOVEBOOKS': 0.3
-} 
+}
+
 
 def apply_voucher(initial_price):
     coupon_input = input('Apply coupon: ')

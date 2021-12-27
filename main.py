@@ -31,7 +31,8 @@ while True:
         8 - Rates
         9 - Quit
     """)
-    n = validate_input_number("Which action do you want to perform?: ", 'Your input is not valid. Please only enter a number between 0 and 9!', 9)
+    n = validate_input_number("Which action do you want to perform?: ", 'Your input is not valid. Please only enter a '
+                                                                        'number between 0 and 9!', 9)
     if n == 0:
         list_all_books(books_list)
     elif n == 1:
