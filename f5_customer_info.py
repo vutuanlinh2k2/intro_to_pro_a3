@@ -1,7 +1,7 @@
 # Feature 5: List all info of a specific customer
-def customer_info(customers):
+def customer_info(customers_list):
     email = input('Please enter an email address: ')
-    for customer in customers:
+    for customer in customers_list:
         if customer["email"] == email:
             print("Customer id:", customer['id'])
             print("Customer name:", customer['name'])
