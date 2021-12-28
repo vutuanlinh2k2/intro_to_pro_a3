@@ -5,7 +5,7 @@ from utilities import *
 def selecting_books(books_list):
     """
     This function will help the customer to place book order
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     # define variables for tracking all the books user selected and the total price
@@ -61,6 +61,11 @@ def selecting_books(books_list):
     
 # a function to get users' information            
 def getting_customer_info(customers_list):
+    """
+    This function will get the customer's information
+    :param: The list of customers in our database (list)
+    :return: the customer's email (str), name (str), phone number (str), and address (str)
+    """
     
     # ask for their email
     email = input('Enter your email address: ')
@@ -105,6 +110,12 @@ def getting_customer_info(customers_list):
 
 # the main function for placing order   
 def place_order(books_list, customers_list):
+    """
+    This function will place the order of each customer
+    :param: book_list: the list of books in our database (list)
+    :param: customers_list: the list of customers in our database (list)
+    :return: None
+    """
     
     # users select the books
     (total, books_info) = selecting_books(books_list)

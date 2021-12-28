@@ -3,7 +3,7 @@
 def list_all_books(books_list):
     """
     This function will list all the books of our store (including their name and ID)
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     print("All books available:")

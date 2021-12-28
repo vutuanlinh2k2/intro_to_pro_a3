@@ -4,7 +4,7 @@ from utilities import validate_input_number
 def book_info(books_list):
     """
     This function will provide all the information of a specific book (including name, author, genre, description, price and rating)
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     book_id = validate_input_number("Enter the ID of the book that you want to see: ", 0, len(books_list) - 1)

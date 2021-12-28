@@ -2,7 +2,7 @@
 def customer_info(customers_list):
     """
     This function will list all information of a specific customer using their email address to distinguish
-    :param customers_list: the list of customer in our database
+    :param customers_list: the list of customers in our database (list)
     :return: None
     """
     email = input('Please enter an email address: ')

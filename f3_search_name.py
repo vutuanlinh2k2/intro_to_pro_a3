@@ -2,7 +2,7 @@
 def name_search(books_list):
     """
     This function will help the customer to search a book by typing its name
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     search_name = input("Enter the name of the book you want to search: ")

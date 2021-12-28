@@ -9,7 +9,7 @@ vouchers = {
 def apply_voucher(initial_price):
     """
     This function will help the customer to apply voucher
-    :param initial_price: the initial price of that order
+    :param initial_price: the initial price of that order (float)
     :return: None
     """
     coupon_input = input('Apply coupon: ')

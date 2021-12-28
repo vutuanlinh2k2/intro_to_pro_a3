@@ -4,7 +4,7 @@ from utilities import validate_input_string
 def sort_name(books_list):
     """
     This function will make the customer to choose to sort in which order
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database
     :return: None
     """
     print('Please choose to sort books by name in descending or ascending order.')
@@ -23,7 +23,7 @@ def sort_name(books_list):
 def sort_author(books_list):
     """
     This function will sort the book based on the author name
-    :param book_list: the list of book in our database
+    :param book_list: the list of books in our database
     :return: None
     """
     print('Please choose to sort books by author in descending or ascending order.')
@@ -42,7 +42,7 @@ def sort_author(books_list):
 def sort_price(books_list):
     """
     This function will sort the book based on the price
-    :param book_list: the list of book in our database
+    :param book_list: the list of books in our database
     :return: None
     """
     print('Please choose to sort books by price in descending or ascending order.')
@@ -61,7 +61,7 @@ def sort_price(books_list):
 def sort(books_list):
     """
     This function will make the customer to decide sorting the book list based on which category
-    :param book_list: the list of book in our database
+    :param book_list: the list of books in our database
     :return: None
     """
     print('Please choose to sort books by name, author or prize.')

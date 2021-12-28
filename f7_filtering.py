@@ -4,7 +4,7 @@ from utilities import *
 def filter_genre(books_list):
     """
     This function will filter the book list by genre
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     genre_list = []
@@ -27,7 +27,7 @@ def filter_genre(books_list):
 def filter_pages(books_list):
     """
     This function will filter the book list by the number of pages
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     num = 0
@@ -48,7 +48,7 @@ def filter_pages(books_list):
 def filter_price(books_list):
     """
     This function will filter the book list by price
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     num = 0
@@ -69,7 +69,7 @@ def filter_price(books_list):
 def filter(books_list):
     """
     This function will make the customer to decide filter by which category
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     print('Please choose to filter books by genre, pages or price.')

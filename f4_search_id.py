@@ -2,7 +2,7 @@
 def id_search(books_list):
     """
     This function will help the customer to search a book by typing its ID
-    :param books_list: the list of book in our database
+    :param books_list: the list of books in our database (list)
     :return: None
     """
     search_id = input("Enter the id of the book you want to search: ")
