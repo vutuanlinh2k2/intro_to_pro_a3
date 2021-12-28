@@ -2,6 +2,11 @@ from utilities import validate_input_number
 
 # a function that let users to rate a book
 def rating(books_list):
+    """
+    This function will make the customer to rate a book in the range of 1-5
+    :param books_list: the list of book in our database
+    :return: None
+    """
     # ask the users the id of the book they want to rate
     rate_id = validate_input_number('Please enter the id of the book you want to rate: ', 0, len(books_list) - 1)
     

@@ -3,7 +3,11 @@ from utilities import *
 
 # a function to help users selecting books they want to buy
 def selecting_books(books_list):
-    
+    """
+    This function will help the customer to place book order
+    :param books_list: the list of book in our database
+    :return: None
+    """
     # define variables for tracking all the books user selected and the total price
     total = 0
     books_info = []

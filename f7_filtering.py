@@ -2,6 +2,11 @@ from utilities import *
 
 
 def filter_genre(books_list):
+    """
+    This function will filter the book list by genre
+    :param books_list: the list of book in our database
+    :return: None
+    """
     genre_list = []
     for book in books_list:
         for genre in book["genre"]:
@@ -20,6 +25,11 @@ def filter_genre(books_list):
 
 
 def filter_pages(books_list):
+    """
+    This function will filter the book list by the number of pages
+    :param books_list: the list of book in our database
+    :return: None
+    """
     num = 0
     minimum_page_numbers = validate_input_number('Enter the minimum pages: ', 0, 100000)
     maximum_page_numbers = validate_input_number('Enter the maximum pages: ', 0, 10000)
@@ -36,6 +46,11 @@ def filter_pages(books_list):
 
 
 def filter_price(books_list):
+    """
+    This function will filter the book list by price
+    :param books_list: the list of book in our database
+    :return: None
+    """
     num = 0
     minimum_price = validate_input_number('Enter the minimum price: ', 0, 100)
     maximum_price = validate_input_number('Enter the maximum price: ', 0, 100)
@@ -52,6 +67,11 @@ def filter_price(books_list):
 
 
 def filter(books_list):
+    """
+    This function will make the customer to decide filter by which category
+    :param books_list: the list of book in our database
+    :return: None
+    """
     print('Please choose to filter books by genre, pages or price.')
     sort_type = validate_input_string('Choose filter type: ', "Please only choose between 'genre', 'pages' or 'price'!",
                                       ['genre', 'pages', 'price'])

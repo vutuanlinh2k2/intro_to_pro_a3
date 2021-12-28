@@ -1,5 +1,10 @@
 # Feature 4: Search book by Id
 def id_search(books_list):
+    """
+    This function will help the customer to search a book by typing its ID
+    :param books_list: the list of book in our database
+    :return: None
+    """
     search_id = input("Enter the id of the book you want to search: ")
     num = 0
     for book in books_list:
