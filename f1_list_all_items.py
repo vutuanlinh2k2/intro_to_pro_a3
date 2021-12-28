@@ -2,4 +2,4 @@
 def list_all_books(books_list):
     print("All books available:")
     for book in books_list:
-        print(book["id"], "|", book["name"])
+        print("{0:>2} {1} {2}".format(book["id"], "|", book["name"]))
