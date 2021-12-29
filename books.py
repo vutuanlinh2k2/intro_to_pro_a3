@@ -544,3 +544,13 @@ books_list = [
         "average_rate": 'N/A'
     },
 ]
+
+
+def make_book_list(book_list):
+    f = open("books.txt", "w+")
+    for book in book_list:
+        f.write(book["name"] + " | " + str(book["quantity"]) + " | " + str(book["average_rate"]))
+        f.write("\n")
+
+
+make_book_list(books_list)
