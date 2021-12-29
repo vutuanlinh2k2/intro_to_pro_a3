@@ -1,7 +1,7 @@
 from books import *
 from utilities import *
 
-# basic features
+# Basic features
 from f1_list_all_items import *
 from f2_item_info import *
 from f3_search_name import *
@@ -9,21 +9,21 @@ from f4_search_id import *
 from f5_customer_info import *
 from f6_place_order import place_order
 
-# advanced features
+# Advanced features
 from f7_filtering import filter
 from f8_sorting import sort
 from f9_rates import *
-# the feature vouchers goes with place_order feature
+# The feature vouchers goes with place_order feature
 
-# a variable storing all customers' information
+# A variable storing all customers' information
 customers_list = []
 
 print('Welcome to our book store!')
 
-# a loop that let users do multiple actions before they quit
+# A loop that let users do multiple actions before they quit
 while True:
     
-    # guiding users
+    # Guiding users
     print('Please enter a number correspond to any action as shown below!')
     print("""
         1 - List all books
@@ -38,7 +38,7 @@ while True:
         10 - Quit
     """)
     
-    # let users choose their actions
+    # Let users choose their actions
     n = validate_input_number("Which action do you want to perform?: ", 1, 10)
     
     if n == 1:
@@ -63,10 +63,10 @@ while True:
         print("Thank you for visiting our store. We hope to see you back soon!")
         break
     
-    # ask if user want to go back and perform other actions
+    # Ask if user want to go back and perform other actions
     input('\nReady to change to other actions. Just click enter. ')
     
-    # clear the screen
+    # Clear the screen
     for i in range(100):
         print('\n')
     

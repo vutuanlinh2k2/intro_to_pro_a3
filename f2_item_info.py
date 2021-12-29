@@ -7,7 +7,7 @@ def book_info(books_list):
     :param books_list: the list of books in our database (list)
     :return: None
     """
-    # ask the user for the id of the book that they want to see
+    # Ask the user for the id of the book that they want to see
     book_id = validate_input_number("Enter the ID of the book that you want to see: ", 0, len(books_list) - 1)
     selected_book = books_list[int(book_id)]
     print(selected_book['name'], 'written by', selected_book['author'])

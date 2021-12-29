@@ -6,7 +6,7 @@ def customer_info(customers_list):
     :return: None
     """
     email = input('Please enter an email address: ')
-    for customer in customers_list:
+    for customer in customers_list:     # Loop through the list of customers, each customer's profile is represted by a dictionary
         if customer["email"] == email:
             print("Customer id:", customer['id'])
             print("Customer name:", customer['name'])
