@@ -66,8 +66,6 @@ def getting_customer_info(customers_list):
     :param: The list of customers in our database (list)
     :return: the customer's email (str), name (str), phone number (str), and address (str)
     """
-    
-    # Ask for their email
     email = input('Enter your email address: ')
     
     # Check if that email in the customers database
@@ -106,7 +104,10 @@ def getting_customer_info(customers_list):
         "address": address
     })
     
-    return (email, name, phone, address)        
+    f = open("customers.txt", "a")
+    f.write(f"Customer's name: {name} | Phone: {phone} | Email: {email} | Address: {address}\n")
+    f.close()
+    return (email, name, phone, address)
 
 # The main function for placing order   
 def place_order(books_list, customers_list):
@@ -129,7 +130,7 @@ def place_order(books_list, customers_list):
     # Print the summary of their order
     print('The summary of your order: ')
     for book in books_info:
-        print(book['number'], ' copies of', book['name'], '.')
+        print(book['number'], 'copies of', book['name'], '.')
     print(f'The total price of your order is {final_total}$.')
     print('Your email: ', email)
     print('Your name: ', name)
