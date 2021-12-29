@@ -549,7 +549,7 @@ books_list = [
 def make_book_list(book_list):
     f = open("books.txt", "w+")
     for book in book_list:
-        f.write(f'name: {book["name"]} | quantity: {str(book["quantity"])} | rate: {str(book["average_rate"])}\n')
+        f.write(f'name:: {book["name"]} | quantity:: {str(book["quantity"])} | rate:: {str(book["average_rate"])}\n')
     f.close()
 
 make_book_list(books_list)

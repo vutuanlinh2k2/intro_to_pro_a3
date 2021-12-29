@@ -105,7 +105,7 @@ def getting_customer_info(customers_list):
     })
     
     f = open("customers.txt", "a")
-    f.write(f"Customer's name: {name} | Phone: {phone} | Email: {email} | Address: {address}\n")
+    f.write(f"name:: {name} | phone:: {phone} | email:: {email} | address:: {address}\n")
     f.close()
     return (email, name, phone, address)
 

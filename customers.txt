@@ -1,2 +1,2 @@
-Customer's name: Lin | Phone: 116 | Email: Linhchoido | Address: Ho Tay
-Customer's name: Hoang | Phone: 112 | Email: kophaihoang | Address: Lao
+name:: Linh | phone:: 116 | email:: Linhxinhgai | address:: China
+name:: Hoang | phone:: 112 | email:: kophaihoang | address:: Lao
