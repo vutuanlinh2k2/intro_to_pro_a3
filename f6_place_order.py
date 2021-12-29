@@ -126,12 +126,12 @@ def place_order(books_list, customers_list):
     final_total = apply_voucher(total)
     
     # getting user info
-    (email, name, phone, address) =  getting_customer_info(customers_list)  
+    (email, name, phone, address) = getting_customer_info(customers_list)
     
     # print the summary of their order
     print('The summary of your order: ')
     for book in books_info:
-        print(book['number'], ' copies of', book['name'], '.')
+        print(book['number'], 'copies of', book['name'], '.')
     print(f'The total price of your order is {final_total}$.')
     print('Your email: ', email)
     print('Your name: ', name)
