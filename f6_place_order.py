@@ -105,10 +105,10 @@ def getting_customer_info(customers_list):
         "address": address
     })
     
-    f = open("customers.txt","w")
-    f.write(f"Customer's name: {name} | Phone: {phone} | Email: {email} \n Adress: {address}")
+    f = open("customers.txt", "a")
+    f.write(f"Customer's name: {name} | Phone: {phone} | Email: {email} | Address: {address}\n")
     f.close()
-    return (email, name, phone, address)        
+    return (email, name, phone, address)
 
 # the main function for placing order   
 def place_order(books_list, customers_list):

@@ -1,2 +1,2 @@
-Customer's name: Khue | Phone: 113 | Email: khue@gmail.com 
- Adress: Doan xem
+Customer's name: Lin | Phone: 116 | Email: Linhchoido | Address: Ho Tay
+Customer's name: Hoang | Phone: 112 | Email: kophaihoang | Address: Lao
