@@ -15,9 +15,11 @@ def apply_voucher(initial_price):
     coupon_input = input('Apply coupon: ')
     for voucher_type in vouchers.keys():
         if coupon_input == voucher_type:
+            # applying the voucher
             new_price = initial_price * vouchers[coupon_input]
             print('Voucher has been successfully applied!')
             print(f"The total amount of money you have to pay is {new_price}")
             return new_price
     else:
+        # if the user types in an invalid voucher
         print('Invalid coupon!')
