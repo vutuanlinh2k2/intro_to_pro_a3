@@ -551,6 +551,7 @@ def make_book_list(book_list):
     for book in book_list:
         f.write(book["name"] + " | " + str(book["quantity"]) + " | " + str(book["average_rate"]))
         f.write("\n")
+    f.close()
 
 
 make_book_list(books_list)

@@ -66,7 +66,6 @@ def getting_customer_info(customers_list):
     :param: The list of customers in our database (list)
     :return: the customer's email (str), name (str), phone number (str), and address (str)
     """
-    
     # ask for their email
     email = input('Enter your email address: ')
     
@@ -106,6 +105,9 @@ def getting_customer_info(customers_list):
         "address": address
     })
     
+    f = open("customers.txt","w")
+    f.write(f"Customer's name: {name} | Phone: {phone} | Email: {email} \n Adress: {address}")
+    f.close()
     return (email, name, phone, address)        
 
 # the main function for placing order   
