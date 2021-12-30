@@ -1,5 +1,5 @@
 from books import *
-from utilities import *
+from validate_input import *
 
 # Basic features
 from f1_list_all_items import *
@@ -42,21 +42,21 @@ while True:
     n = validate_input_number("Which action do you want to perform?: ", 1, 10)
     
     if n == 1:
-        list_all_books(books_list)
+        list_all_books()
     elif n == 2:
-        book_info(books_list)
+        book_info()
     elif n == 3:
-        name_search(books_list)
+        name_search()
     elif n == 4:
-        id_search(books_list)
+        id_search()
     elif n == 5:
         customer_info(customers_list)
     elif n == 6:
         place_order(books_list, customers_list)
     elif n == 7:
-        filter(books_list)
+        filter()
     elif n == 8:
-        sort(books_list)
+        sort()
     elif n == 9:
         rating(books_list)
     else:

@@ -12,9 +12,6 @@ books_list = [
         the wrong system for change. You do not rise to the level of your goals. You fall to the level of your 
         systems. Here, you'll get a proven system that can take you to new heights.
         """,
-        "quantity": 15,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
     {
         "id": 1,
@@ -29,9 +26,6 @@ books_list = [
         constraints. The goal: guide the user effortlessly to the right action on the right control 
         at the right time.
         """,
-        "quantity": 20,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
     {
         "id": 2,
@@ -48,9 +42,6 @@ books_list = [
         entirely unexpected journey, involving, among other surprises, a suitcase stuffed with cash, some unpleasant 
         criminals, a friendly hot-dog stand operator, and an elephant (not to mention a death by elephant).
         """,
-        "quantity": 18,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
     {
         "id": 3,
@@ -64,9 +55,6 @@ books_list = [
         international bestseller—that explores the ways in which biology and history have defined us and 
         enhanced our understanding of what it means to be \"human.\"
         """,
-        "quantity": 9,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
     {
         "id": 4,
@@ -85,9 +73,6 @@ books_list = [
         come to realize have been left specifically for them. If Robert and Sophie cannot solve the puzzle in time, 
         an ancient truth could be lost forever—and they themselves might end up as collateral damage.
         """,
-        "quantity": 11,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -105,9 +90,6 @@ books_list = [
         was one of Langdon’s first students at Harvard two decades earlier, is about to reveal an astonishing 
         breakthrough . . . one that will answer two of the fundamental questions of human existence.
         """,
-        "quantity": 13,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -125,9 +107,6 @@ books_list = [
         like star performers in his circus, a seven-days-a-week job they hadn't signed up for. It turned out Will 
         Smith's education wasn't nearly over. 
         """,
-        "quantity": 19,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -145,9 +124,6 @@ books_list = [
         color: mixing colors to make mud, letting chance dictate your color choice, weaving with brightly colored strips 
         of paper, and more. What colors will you use to you wreck your journal? 
         """,
-        "quantity": 12,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -165,9 +141,6 @@ books_list = [
         chances of winning even a single game look slim. But in sports, anything can happen. When everything is on
         the line and the ball is in Greg’s hands, will he rise to the occasion? Or will he blow his big shot? 
         """,
-        "quantity": 21,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -183,9 +156,6 @@ books_list = [
         cut out for an old-fashioned world. With tension building inside and outside the Heffley home, 
          will Greg find a way to survive? Or is going “old school” just too hard for a kid like Greg? 
          """,
-        "quantity": 16,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -202,9 +172,6 @@ books_list = [
         vast and lasting influence on the world of design. An abundance of imagery is used, including professional and 
         archival photography, watercolors, whimsical hand drawings, and sketches. 
         """,
-        "quantity": 12,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -220,9 +187,6 @@ books_list = [
         chattel slavery that would last for the next 250 years. This is sometimes referred to as the country’s 
         original sin, but it is more than that: It is the source of so much that still defines the United States.
         """,
-        "quantity": 10,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -239,9 +203,6 @@ books_list = [
         chances —a universe where we can share and steward the stories of our bravest and most heartbreaking moments 
         with one another in a way that builds connection.
         """,
-        "quantity": 12,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -260,9 +221,6 @@ books_list = [
         year with an 11-month sustainability calendar that will continue to encourage you and build upon the foundation 
         you've already started.
         """,
-        "quantity": 12,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -280,9 +238,6 @@ books_list = [
         let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding them with gold 
         medals just for showing up.
         """,
-        "quantity": 14,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -298,9 +253,6 @@ books_list = [
         flow forward? Is the universe unending—or are there boundaries? Are there other dimensions in space? What 
         will happen when it all ends?
         """,
-        "quantity": 5,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -322,9 +274,6 @@ books_list = [
         introduction to DLT, blockchains, and cryptocurrencies and seeks to equip the reader with an ability to 
         participate in the crypto economy meaningfully.
         """,
-        "quantity": 15,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -340,9 +289,6 @@ books_list = [
         book Hawking takes us to the cutting edge of theoretical physics, where truth is often stranger than fiction, 
         to explain in laymen’s terms the principles that control our universe.
         """,
-        "quantity": 8,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -362,9 +308,6 @@ books_list = [
         run-of-the-mill boarding school experience (well, ok, even that's pretty darn out of the ordinary), Harry  
         has a destiny that he was born to fulfill. A destiny that others would kill to keep him from.
         """,
-        "quantity": 3,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -380,9 +323,6 @@ books_list = [
         as the keeper of the Gryffindor Quidditch Team. Along the way he learns about the strength of his friends, 
         the fierceness of his enemies, and the meaning of sacrifice.
         """,
-        "quantity": 7,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -398,9 +338,6 @@ books_list = [
         from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster 
         will strike.
         """,
-        "quantity": 6,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -416,9 +353,6 @@ books_list = [
         Now he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who 
         was Black's downfall as well.
         """,
-        "quantity": 10,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -437,9 +371,6 @@ books_list = [
         unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be 
         deadly.
         """,
-        "quantity": 11,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -457,9 +388,6 @@ books_list = [
         with Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort -- and 
         thus finds what may be his only vulnerability.
         """,
-        "quantity": 6,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -479,9 +407,6 @@ books_list = [
         likes of which Rowling's fans have not yet seen, and are not likely to forget. But we would be remiss if we did 
         not offer one small suggestion before you embark on your final adventure with Harry--bring plenty of tissue.
         """,
-        "quantity": 2,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -499,9 +424,6 @@ books_list = [
         Once you see how the code works, you’ll practice re-creating the programs and experiment by adding your own 
         custom touches.
         """,
-        "quantity": 5,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -520,9 +442,6 @@ books_list = [
         them, whether they’re messaging apps, workplace collaboration tools, or marketplaces. Network effects provide 
         a path for fledgling products to break through, attracting new users through viral growth and word of mouth.
         """,
-        "quantity": 10,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 
     {
@@ -539,17 +458,14 @@ books_list = [
         exactly a summertime paradise. When the skies open up and the water starts to rise, the Heffleys wonder if 
         they can save their vacation—or if they’re already in too deep.
         """,
-        "quantity": 14,
-        "num_of_rates": 0,
-        "average_rate": 'N/A'
     },
 ]
 
 
-def make_book_list(book_list):
-    f = open("books.txt", "w+")
-    for book in book_list:
-        f.write(f'name:: {book["name"]} | quantity:: {str(book["quantity"])} | rate:: {str(book["average_rate"])}\n')
-    f.close()
+# def make_book_list(book_list):
+#     f = open("books.txt", "w+")
+#     for book in book_list:
+#         f.write(f'name:: {book["name"]} | quantity:: {str(book["quantity"])} | rate:: {str(book["average_rate"])}\n')
+#     f.close()
 
-make_book_list(books_list)
+# make_book_list(books_list)

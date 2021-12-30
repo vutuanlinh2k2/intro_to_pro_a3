@@ -1,4 +1,4 @@
-from utilities import validate_input_number
+from validate_input import validate_input_number
 
 # A function that let users to rate a book
 def rating(books_list):
