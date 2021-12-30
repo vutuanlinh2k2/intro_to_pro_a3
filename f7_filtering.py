@@ -1,14 +1,13 @@
 from validate_input import *
-from get_books_data import get_books_data
+from get_data import get_books_data
 
 
-def filter_genre():
+def filter_genre(books_list):
     """
     This function will filter the book list by genre
     :param books_list: the list of books in our database (list)
     :return: None
     """
-    books_list = get_books_data()
     genre_list = []
     for book in books_list:
         for genre in book["genre"]:
@@ -83,13 +82,14 @@ def filter_price(books_list):
         print("We can't find any book satisfying the chosen criteria")
 
 
-def filter(books_list):
+def filter():
     """
     This function will make the customer to decide filter by which category
     :param books_list: the list of books in our database (list)
     :return: None
     """
     print('Please choose to filter books by genre, pages or price.')
+    books_list = get_books_data()
     # Ask the user to choose a filter method
     sort_type = validate_input_string('Choose filter type: ', "Please only choose between 'genre', 'pages' or 'price'!",
                                       ['genre', 'pages', 'price'])

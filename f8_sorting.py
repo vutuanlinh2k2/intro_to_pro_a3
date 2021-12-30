@@ -1,5 +1,5 @@
 from validate_input import validate_input_string
-from get_books_data import get_books_data
+from get_data import get_books_data
 
 def sort_name(books_list):
     """
@@ -43,7 +43,7 @@ def sort_author(books_list):
         print(f'Id: {book["id"]} | Name: {book["name"]} | Author: {book["author"]}')
 
 
-def sort_price():
+def sort_price(books_list):
     """
     This function will sort the book based on the price
     :param book_list: the list of books in our database (list)
@@ -54,7 +54,6 @@ def sort_price():
         asc - ascending
         des - descending
     """)
-    books_list = get_books_data()
     # Ask the user to choose a sorting order
     order = validate_input_string('Choose sorting order: ', "Please only choose between 'asc' or 'des'!",
                                   ['asc', 'des'])
@@ -65,13 +64,14 @@ def sort_price():
         print(f'Id: {book["id"]} | Name: {book["name"]} | Price: {book["price"]}')
 
 
-def sort(books_list):
+def sort():
     """
     This function will make the customer to decide sorting the book list based on which category
     :param book_list: the list of books in our database (list)
     :return: None
     """
     print('Please choose to sort books by name, author or prize.')
+    books_list = get_books_data()
     # Ask the user to choose a sorting method
     sort_type = validate_input_string('Choose sorting type: ',
                                       "Please only choose between 'name', 'author' or 'price'!",

@@ -1,2 +1,2 @@
-name:: Linh | phone:: 116 | email:: Linhxinhgai | address:: China
-name:: Hoang | phone:: 112 | email:: kophaihoang | address:: Lao
+0 | Linh | 0987654321 | linhvu@gmail.com | China
+1 | Hoang | 0975318642 | kophaihoang@gmail.com | Lao

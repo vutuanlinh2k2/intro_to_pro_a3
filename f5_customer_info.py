@@ -1,18 +1,21 @@
+from get_data import get_customers_data
+
 # Feature 5: List all info of a specific customer
-def customer_info(customers_list):
+def customer_info():
     """
     This function will list all information of a specific customer using their email address to distinguish
     :param customers_list: the list of customers in our database (list)
     :return: None
     """
+    customers_data = get_customers_data()
     email = input('Please enter an email address: ')
-    for customer in customers_list:     # Loop through the list of customers, each customer's profile is represted by a dictionary
-        if customer["email"] == email:
-            print("Customer id:", customer['id'])
-            print("Customer name:", customer['name'])
-            print("Phone:", customer['phone'])
-            print("Email:", customer['email'])
-            print("Address:", customer['address'])
-            break
+    if email in customers_data:
+        print('Customer id:', customers_data[email]["id"])
+        print("Customer name:", customers_data[email]['name'])
+        print("Phone:", customers_data[email]['phone'])
+        print("Email:", email)
+        print("Address:", customers_data[email]['address'])
     else:
-        print('We have no customer with that email!')
+        print('Sorry we cannot find customer with that email!')
+        
+customer_info()

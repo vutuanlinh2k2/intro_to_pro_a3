@@ -1,6 +1,5 @@
 from books import books_list
 
-
 def get_books_data():
     """
     This function will convert data in txt file into py file
@@ -14,8 +13,7 @@ def get_books_data():
         for line in data:
 
             # Split each line into different pairs
-            [id, name, quantity, average_rate,
-                num_of_rates] = line.split(' | ')
+            [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')
             data_dict[int(id)] = {}
             data_dict[int(id)]["name"] = name
             data_dict[int(id)]["quantity"] = int(quantity)
@@ -32,3 +30,17 @@ def get_books_data():
         book["average_rate"] = data_dict[book["id"]]["average_rate"]
 
     return books_list
+
+def get_customers_data():
+    data_dict = {}
+
+    # Open and read the file that need to be converted
+    with open('customers.txt', "r") as data:
+        for line in data:
+            [id, name, phone, email, address] = line.split(' | ')
+            data_dict[email] = {}
+            data_dict[email]["id"] = id
+            data_dict[email]["name"] = name
+            data_dict[email]["phone"] = phone
+            data_dict[email]["address"] = address.strip()
+    return data_dict
