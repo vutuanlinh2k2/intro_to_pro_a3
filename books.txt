@@ -1,28 +1,28 @@
-name:: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | quantity:: 15 | rate:: N/A
-name:: The Design of Everyday Things: Revised and Expanded Edition | quantity:: 20 | rate:: N/A
-name:: The 100-Year-Old Man Who Climbed Out the Window and Disappeared | quantity:: 18 | rate:: N/A
-name:: Sapiens: A Brief History of Humankind | quantity:: 9 | rate:: N/A
-name:: The Da Vinci Code: A Novel | quantity:: 11 | rate:: N/A
-name:: Origin: A Novel | quantity:: 13 | rate:: N/A
-name:: Will | quantity:: 19 | rate:: N/A
-name:: Wreck This Journal: Now in Color | quantity:: 12 | rate:: N/A
-name:: Big Shot Diary of a Wimpy Kid Book 16 | quantity:: 21 | rate:: N/A
-name:: Old School (Diary of a Wimpy Kid #10) | quantity:: 16 | rate:: N/A
-name:: Bunny Mellon Style | quantity:: 12 | rate:: N/A
-name:: The 1619 Project: A New Origin Story | quantity:: 10 | rate:: N/A
-name:: Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience  | quantity:: 12 | rate:: N/A
-name:: The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life  | quantity:: 12 | rate:: N/A
-name:: The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | quantity:: 14 | rate:: N/A
-name:: A Brief History of Time | quantity:: 5 | rate:: N/A
-name:: Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics | quantity:: 15 | rate:: N/A
-name:: The Universe in a Nutshell | quantity:: 8 | rate:: N/A
-name:: Harry Potter and the Sorcerer's Stone (1) | quantity:: 3 | rate:: N/A
-name:: Harry Potter and the Order of the Phoenix (5) | quantity:: 7 | rate:: N/A
-name:: Harry Potter and the Chamber of Secrets (2) | quantity:: 6 | rate:: N/A
-name:: Harry Potter and the Prisoner of Azkaban (3) | quantity:: 10 | rate:: N/A
-name:: Harry Potter and the Goblet of Fire (4) | quantity:: 11 | rate:: N/A
-name:: Harry Potter and the Half-Blood Prince (6) | quantity:: 6 | rate:: N/A
-name:: Harry Potter and the Deathly Hallows (7) | quantity:: 2 | rate:: N/A
-name:: The Big Book of Small Python Projects: 81 Easy Practice Programs | quantity:: 5 | rate:: N/A
-name:: The Cold Start Problem: How to Start and Scale Network Effects | quantity:: 10 | rate:: N/A
-name:: The Deep End (Diary of a Wimpy Kid Book 15) | quantity:: 14 | rate:: N/A
+id: 0 | name:: Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | quantity:: 15 | average_rate:: N/A | num_of_rates:: 0
+id: 1 | name:: The Design of Everyday Things: Revised and Expanded Edition | quantity:: 20 | average_rate:: N/A | num_of_rates:: 0
+id: 2 | name:: The 100-Year-Old Man Who Climbed Out the Window and Disappeared | quantity:: 18 | average_rate:: N/A | num_of_rates:: 0
+id: 3 | name:: Sapiens: A Brief History of Humankind | quantity:: 9 | average_rate:: N/A | num_of_rates:: 0
+id: 4 | name:: The Da Vinci Code: A Novel | quantity:: 11 | average_rate:: N/A | num_of_rates:: 0
+id: 5 | name:: Origin: A Novel | quantity:: 13 | average_rate:: N/A | num_of_rates:: 0
+id: 6 | name:: Will | quantity:: 19 | average_rate:: N/A | num_of_rates:: 0
+id: 7 | name:: Wreck This Journal: Now in Color | quantity:: 12 | average_rate:: N/A | num_of_rates:: 0
+id: 8 | name:: Big Shot Diary of a Wimpy Kid Book 16 | quantity:: 21 | average_rate:: N/A | num_of_rates:: 0
+id: 9 | name:: Old School (Diary of a Wimpy Kid #10) | quantity:: 16 | average_rate:: N/A | num_of_rates:: 0
+id: 10 | name:: Bunny Mellon Style | quantity:: 12 | average_rate:: N/A | num_of_rates:: 0
+id: 11 | name:: The 1619 Project: A New Origin Story | quantity:: 10 | average_rate:: N/A | num_of_rates:: 0
+id: 12 | name:: Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience  | quantity:: 12 | average_rate:: N/A | num_of_rates:: 0
+id: 13 | name:: The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life  | quantity:: 12 | average_rate:: N/A | num_of_rates:: 0
+id: 14 | name:: The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | quantity:: 14 | average_rate:: N/A | num_of_rates:: 0
+id: 15 | name:: A Brief History of Time | quantity:: 5 | average_rate:: N/A | num_of_rates:: 0
+id: 16 | name:: Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics | quantity:: 15 | average_rate:: N/A | num_of_rates:: 0
+id: 17 | name:: The Universe in a Nutshell | quantity:: 8 | average_rate:: N/A | num_of_rates:: 0
+id: 18 | name:: Harry Potter and the Sorcerer's Stone (1) | quantity:: 3 | average_rate:: N/A | num_of_rates:: 0
+id: 19 | name:: Harry Potter and the Order of the Phoenix (5) | quantity:: 7 | average_rate:: N/A | num_of_rates:: 0
+id: 20 | name:: Harry Potter and the Chamber of Secrets (2) | quantity:: 6 | average_rate:: N/A | num_of_rates:: 0
+id: 21 | name:: Harry Potter and the Prisoner of Azkaban (3) | quantity:: 10 | average_rate:: N/A | num_of_rates:: 0
+id: 22 | name:: Harry Potter and the Goblet of Fire (4) | quantity:: 11 | average_rate:: N/A | num_of_rates:: 0
+id: 23 | name:: Harry Potter and the Half-Blood Prince (6) | quantity:: 6 | average_rate:: N/A | num_of_rates:: 0
+id: 24 | name:: Harry Potter and the Deathly Hallows (7) | quantity:: 2 | average_rate:: N/A | num_of_rates:: 0
+id: 25 | name:: The Big Book of Small Python Projects: 81 Easy Practice Programs | quantity:: 5 | average_rate:: N/A | num_of_rates:: 0
+id: 26 | name:: The Cold Start Problem: How to Start and Scale Network Effects | quantity:: 10 | average_rate:: N/A | num_of_rates:: 0
+id: 27 | name:: The Deep End (Diary of a Wimpy Kid Book 15) | quantity:: 14 | average_rate:: N/A | num_of_rates:: 0

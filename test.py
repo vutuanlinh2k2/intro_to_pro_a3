@@ -1,3 +1,5 @@
+from books import *
+
 def read_data(data_file):
     """
     This function will convert data in txt file into py file
@@ -16,13 +18,22 @@ def read_data(data_file):
 
             # Split each pair and add key and value of each pair into a dictionary
             for component in components:
-                k, v = component.split("::")
-                data_dct[k.strip()] = v.strip()
+                key, value = component.split("::")
+                
+                try:
+                    number_value = int(value) 
+
+                except ValueError:
+                    data_dct[key.strip()] = value.strip()
+                else:
+                    data_dct[key.strip()] = number_value
 
             # Add dictionaries into a list
             data_lst.append(data_dct)
 
     return data_lst
+
+print(read_data('books.txt'))
 
 
 
