@@ -1,5 +1,7 @@
-from f10_vouchers import *
+from f10_vouchers import apply_voucher
 from validate_input import *
+from get_data import get_books_data, get_customers_data
+from update_data import update_book_quantity, add_new_customer, update_customer_address
 
 # A function to help users selecting books they want to buy
 def selecting_books(books_list):
@@ -35,17 +37,18 @@ def selecting_books(books_list):
                 number = validate_input_number('How many of them would you like to buy? ', 1, book["quantity"])
 
                 # Update the books users have selected, the total price and the books database
-                total += number * book["price"]
+                total += float("{:.2f}".format(number * book["price"]))
                 books_info.append({
                     'id': book["id"],
                     'name': book['name'],
                     'number': number
                 })
-                book["quantity"] -= number
+                
+                update_book_quantity(select_id, number)
                 
                 # Give them the info of the book they just add to their order
                 print(f'You have added {str(number)} copies of {book["name"]} to your order!')
-                print(f'The total price of your order is now at {total}.')
+                print(f'The total price of your order is now at {total}$.')
                 
                 # Ask users if they want to buy more books
                 buy_more = validate_input_string('Would you like to buy more books? ', "Please only type 'y'(yes) or 'n'(no)!", ['y', 'n'])
@@ -68,55 +71,33 @@ def getting_customer_info(customers_list):
     """
     email = input('Enter your email address: ')
     
-    # Check if that email in the customers database
-    for customer in customers_list:
-        # If the email is in the customers database
-        if customer["email"] == email:
-            
-            # Ask if they want to keep their information 
-            change_info = validate_input_string(f'Hi {customer["name"]}. It appears that you have made previous order(s) in our store. Do you want to keep all your information the same (phone, address)? ', "Please only type 'y'(yes) or 'n'(no)!", ['y', 'n'])
-            
-            # If yes, finish the function
-            if change_info.lower() == 'y':
-                return (email, customer["name"], customer["phone"], customer["address"])
-            
-            # If no, ask them to update their information
-            else:
-                phone = input('Enter your new phone number: ')
-                address = input('Enter your new address: ')
-                
-                # Update the customers database
-                customer["phone"] = phone
-                customer["address"] = address
-                
-                return (email, customer["name"], phone, address)
-    
+    if email in customers_list:
+        change_info = validate_input_string(f'Hi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do you want to keep your shipping address the same? (y/n) ', "Please only type 'y'(yes) or 'n'(no)!", ['y', 'n'])
+        if change_info.lower() == 'y':
+            return (email, customers_list[email]["name"], customers_list[email]["phone"], customers_list[email]["address"])
+        else:
+            address = input('Enter your new address: ')
+            update_customer_address(email, address)
+            return (email, customers_list[email]["name"], customers_list[email]["phone"], address)
+        
     # If the email is not in the customers database, ask them all the required information     
     name = input('Enter your name: ')
     phone = input('Enter your phone number: ')
     address = input('Enter your address: ')
-    
-    # Add new user to the customers database
-    customers_list.append({
-        "email": email,
-        "phone": phone,
-        "name": name,
-        "address": address
-    })
-    
-    f = open("customers.txt", "a")
-    f.write(f"name:: {name} | phone:: {phone} | email:: {email} | address:: {address}\n")
-    f.close()
+        
+    add_new_customer(name, phone, email, address)
     return (email, name, phone, address)
 
 # The main function for placing order   
-def place_order(books_list, customers_list):
+def place_order():
     """
     This function will place the order of each customer
     :param: book_list: the list of books in our database (list)
     :param: customers_list: the list of customers in our database (list)
     :return: None
     """
+    books_list = get_books_data()
+    customers_list = get_customers_data()
     
     # Users select the books
     (total, books_info) = selecting_books(books_list)
@@ -130,7 +111,7 @@ def place_order(books_list, customers_list):
     # Print the summary of their order
     print('The summary of your order: ')
     for book in books_info:
-        print(book['number'], 'copies of', book['name'], '.')
+        print(book['number'], 'copies of', book['name'])
     print(f'The total price of your order is {final_total}$.')
     print('Your email: ', email)
     print('Your name: ', name)

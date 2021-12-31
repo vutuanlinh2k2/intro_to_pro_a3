@@ -17,5 +17,3 @@ def customer_info():
         print("Address:", customers_data[email]['address'])
     else:
         print('Sorry we cannot find customer with that email!')
-        
-customer_info()

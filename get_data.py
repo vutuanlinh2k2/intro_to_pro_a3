@@ -6,41 +6,41 @@ def get_books_data():
     :param data_file: name of txt file (str)
     :return: list of converted data (list)
     """
-    data_dict = {}
+    books_data_dict = {}
 
     # Open and read the file that need to be converted
-    with open('books.txt', "r") as data:
-        for line in data:
+    with open('books.txt', "r") as books_data:
+        for line in books_data:
 
             # Split each line into different pairs
             [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')
-            data_dict[int(id)] = {}
-            data_dict[int(id)]["name"] = name
-            data_dict[int(id)]["quantity"] = int(quantity)
-            data_dict[int(id)]["num_of_rates"] = int(num_of_rates)
+            books_data_dict[int(id)] = {}
+            books_data_dict[int(id)]["name"] = name
+            books_data_dict[int(id)]["quantity"] = int(quantity)
+            books_data_dict[int(id)]["num_of_rates"] = int(num_of_rates)
 
             try:
-                data_dict[int(id)]["average_rate"] = float(average_rate)
+                books_data_dict[int(id)]["average_rate"] = float(average_rate)
             except ValueError:
-                data_dict[int(id)]["average_rate"] = average_rate
+                books_data_dict[int(id)]["average_rate"] = average_rate
 
     for book in books_list:
-        book["quantity"] = data_dict[book["id"]]["quantity"]
-        book["num_of_rates"] = data_dict[book["id"]]["num_of_rates"]
-        book["average_rate"] = data_dict[book["id"]]["average_rate"]
+        book["quantity"] = books_data_dict[book["id"]]["quantity"]
+        book["num_of_rates"] = books_data_dict[book["id"]]["num_of_rates"]
+        book["average_rate"] = books_data_dict[book["id"]]["average_rate"]
 
     return books_list
 
 def get_customers_data():
-    data_dict = {}
+    customers_data_dict = {}
 
     # Open and read the file that need to be converted
-    with open('customers.txt', "r") as data:
-        for line in data:
+    with open('customers.txt', "r") as customers_data:
+        for line in customers_data:
             [id, name, phone, email, address] = line.split(' | ')
-            data_dict[email] = {}
-            data_dict[email]["id"] = id
-            data_dict[email]["name"] = name
-            data_dict[email]["phone"] = phone
-            data_dict[email]["address"] = address.strip()
-    return data_dict
+            customers_data_dict[email] = {}
+            customers_data_dict[email]["id"] = id
+            customers_data_dict[email]["name"] = name
+            customers_data_dict[email]["phone"] = phone
+            customers_data_dict[email]["address"] = address.strip()
+    return customers_data_dict

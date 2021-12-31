@@ -1,22 +1,18 @@
-from books import *
-from validate_input import *
+from validate_input import validate_input_number
 
 # Basic features
-from f1_list_all_items import *
-from f2_item_info import *
-from f3_search_name import *
-from f4_search_id import *
-from f5_customer_info import *
+from f1_list_all_items import list_all_books
+from f2_item_info import book_info
+from f3_search_name import name_search
+from f4_search_id import id_search
+from f5_customer_info import customer_info
 from f6_place_order import place_order
 
 # Advanced features
 from f7_filtering import filter
 from f8_sorting import sort
-from f9_rates import *
+from f9_rates import rating
 # The feature vouchers goes with place_order feature
-
-# A variable storing all customers' information
-customers_list = []
 
 print('Welcome to our book store!')
 
@@ -50,15 +46,15 @@ while True:
     elif n == 4:
         id_search()
     elif n == 5:
-        customer_info(customers_list)
+        customer_info()
     elif n == 6:
-        place_order(books_list, customers_list)
+        place_order()
     elif n == 7:
         filter()
     elif n == 8:
         sort()
     elif n == 9:
-        rating(books_list)
+        rating()
     else:
         print("Thank you for visiting our store. We hope to see you back soon!")
         break

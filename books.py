@@ -1,6 +1,6 @@
 books_list = [
     {
-        "id": 0,
+        "id": 1,
         "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
         "author": "James Clear",
         "genre": ["self-help", ],
@@ -14,7 +14,7 @@ systems. Here, you'll get a proven system that can take you to new heights.
         """,
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "The Design of Everyday Things: Revised and Expanded Edition",
         "author": "Don Norman",
         "genre": ["art & design", ],
@@ -28,7 +28,7 @@ at the right time.
         """,
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "The 100-Year-Old Man Who Climbed Out the Window and Disappeared",
         "author": "Jonas Jonasson",
         "genre": ["adventure", "fiction", "funny", ],
@@ -44,7 +44,7 @@ criminals, a friendly hot-dog stand operator, and an elephant (not to mention a 
         """,
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Sapiens: A Brief History of Humankind",
         "author": "Yuval Harari",
         "genre": ["non-fiction", "history", ],
@@ -57,7 +57,7 @@ enhanced our understanding of what it means to be \"human.\"
         """,
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "The Da Vinci Code: A Novel",
         "author": "Dan Brown",
         "genre": ["fiction", "puzzle", ],
@@ -76,7 +76,7 @@ an ancient truth could be lost forever—and they themselves might end up as col
     },
 
     {
-        "id": 5,
+        "id": 6,
         "name": "Origin: A Novel",
         "author": "Dan Brown",
         "genre": ["fiction", "puzzle", ],
@@ -93,7 +93,7 @@ breakthrough . . . one that will answer two of the fundamental questions of huma
     },
 
     {
-        "id": 6,
+        "id": 7,
         "name": "Will",
         "author": "Will Smith",
         "genre": ["self-help", "autobiography", ],
@@ -110,7 +110,7 @@ Smith's education wasn't nearly over.
     },
 
     {
-        "id": 7,
+        "id": 8,
         "name": "Wreck This Journal: Now in Color",
         "author": "Keri Smith",
         "genre": ["self-help", "funny", ],
@@ -126,7 +126,7 @@ of paper, and more. What colors will you use to you wreck your journal?
     },
 
     {
-        "id": 8,
+        "id": 9,
         "name": "Big Shot Diary of a Wimpy Kid Book 16",
         "author": "Jeff Kinney",
         "genre": ["children's literature", "funny", ],
@@ -143,7 +143,7 @@ the line and the ball is in Greg’s hands, will he rise to the occasion? Or wil
     },
 
     {
-        "id": 9,
+        "id": 10,
         "name": "Old School (Diary of a Wimpy Kid #10)",
         "author": "Jeff Kinney",
         "genre": ["children's literature", "funny", ],
@@ -158,7 +158,7 @@ will Greg find a way to survive? Or is going “old school” just too hard for 
     },
 
     {
-        "id": 10,
+        "id": 11,
         "name": "Bunny Mellon Style",
         "author": "Linda Jane Holden",
         "genre": ["art & design", ],
@@ -174,7 +174,7 @@ archival photography, watercolors, whimsical hand drawings, and sketches.
     },
 
     {
-        "id": 11,
+        "id": 12,
         "name": "The 1619 Project: A New Origin Story",
         "author": "Nikole Hannah-Jones",
         "genre": ["history", "journalism", ],
@@ -189,7 +189,7 @@ original sin, but it is more than that: It is the source of so much that still d
     },
 
     {
-        "id": 12,
+        "id": 13,
         "name": "Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience ",
         "author": "Brené Brown",
         "genre": ["self-help", "health", ],
@@ -205,7 +205,7 @@ with one another in a way that builds connection.
     },
 
     {
-        "id": 13,
+        "id": 14,
         "name": "The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life ",
         "author": "Dan Buettner",
         "genre": ["health", ],
@@ -223,7 +223,7 @@ you've already started.
     },
 
     {
-        "id": 14,
+        "id": 15,
         "name": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
         "author": "Mark Manson",
         "genre": ["self-help", ],
@@ -240,7 +240,7 @@ medals just for showing up.
     },
 
     {
-        "id": 15,
+        "id": 16,
         "name": "A Brief History of Time",
         "author": "Stephen Hawking",
         "genre": ["science", ],
@@ -255,7 +255,7 @@ will happen when it all ends?
     },
 
     {
-        "id": 16,
+        "id": 17,
         "name": "Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics",
         "author": "Alexander Lipton",
         "genre": ["technology", "economic", ],
@@ -276,7 +276,7 @@ participate in the crypto economy meaningfully.
     },
 
     {
-        "id": 17,
+        "id": 18,
         "name": "The Universe in a Nutshell",
         "author": "Stephen Hawking",
         "genre": ["science", "universe", ],
@@ -291,7 +291,7 @@ to explain in laymen’s terms the principles that control our universe.
     },
 
     {
-        "id": 18,
+        "id": 19,
         "name": "Harry Potter and the Sorcerer's Stone (1)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -310,7 +310,7 @@ has a destiny that he was born to fulfill. A destiny that others would kill to k
     },
 
     {
-        "id": 19,
+        "id": 20,
         "name": "Harry Potter and the Order of the Phoenix (5)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -325,7 +325,7 @@ the fierceness of his enemies, and the meaning of sacrifice.
     },
 
     {
-        "id": 20,
+        "id": 21,
         "name": "Harry Potter and the Chamber of Secrets (2)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -340,7 +340,7 @@ will strike.
     },
 
     {
-        "id": 21,
+        "id": 22,
         "name": "Harry Potter and the Prisoner of Azkaban (3)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -355,7 +355,7 @@ was Black's downfall as well.
     },
 
     {
-        "id": 22,
+        "id": 23,
         "name": "Harry Potter and the Goblet of Fire (4)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -373,7 +373,7 @@ unfortunately for Harry Potter, he's not normal - even by wizarding standards. A
     },
 
     {
-        "id": 23,
+        "id": 24,
         "name": "Harry Potter and the Half-Blood Prince (6)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -390,7 +390,7 @@ thus finds what may be his only vulnerability.
     },
 
     {
-        "id": 24,
+        "id": 25,
         "name": "Harry Potter and the Deathly Hallows (7)",
         "author": "J.K. Rowling",
         "genre": ["fantasy", "fiction", ],
@@ -409,7 +409,7 @@ not offer one small suggestion before you embark on your final adventure with Ha
     },
 
     {
-        "id": 25,
+        "id": 26,
         "name": "The Big Book of Small Python Projects: 81 Easy Practice Programs",
         "author": " Al Sweigart",
         "genre": ["computers & technology", ],
@@ -426,7 +426,7 @@ custom touches.
     },
 
     {
-        "id": 26,
+        "id": 27,
         "name": "The Cold Start Problem: How to Start and Scale Network Effects",
         "author": "Andrew Chen",
         "genre": ["computers & technology", ],
@@ -444,7 +444,7 @@ a path for fledgling products to break through, attracting new users through vir
     },
 
     {
-        "id": 27,
+        "id": 28,
         "name": "The Deep End (Diary of a Wimpy Kid Book 15)",
         "author": "Jeff Kinney",
         "genre": ["children's literature", "funny", ],
@@ -459,12 +459,3 @@ they can save their vacation—or if they’re already in too deep.
         """,
     },
 ]
-
-
-# def make_book_list(book_list):
-#     f = open("books.txt", "w+")
-#     for book in book_list:
-#         f.write(f'name:: {book["name"]} | quantity:: {str(book["quantity"])} | rate:: {str(book["average_rate"])}\n')
-#     f.close()
-
-# make_book_list(books_list)
