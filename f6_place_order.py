@@ -1,5 +1,5 @@
 from f10_vouchers import apply_voucher
-from validate_input import *
+from validate_input import validate_input_number, validate_input_y_n
 from get_data import get_books_data, get_customers_data
 from update_data import update_book_quantity, add_new_customer, update_customer_address
 
@@ -17,7 +17,7 @@ def selecting_books(books_list):
     # A loop allow users to select multiple books
     while True:
         # Ask the users the id of the book they want to buy
-        select_id = validate_input_number('Please enter the id of the book you want to buy: ', 0, len(books_list) - 1)
+        select_id = validate_input_number('Please enter the id of the book you want to buy: ', 1, len(books_list))
         
         # A loop to find the book users are looking for
         for book in books_list:
@@ -51,10 +51,10 @@ def selecting_books(books_list):
                 print(f'The total price of your order is now at {total}$.')
                 
                 # Ask users if they want to buy more books
-                buy_more = validate_input_string('Would you like to buy more books? ', "Please only type 'y'(yes) or 'n'(no)!", ['y', 'n'])
+                buy_more = validate_input_y_n('Would you like to buy more books? (y/n) ')
                 
                 # If they do not want to buy more, print the summary of all the book they have selected
-                if buy_more.lower() == 'n':
+                if not buy_more:
                     print('You have bought:')
                     for book in books_info:
                         print(book['number'], ' copies of ', book['name'], ' .')
@@ -72,8 +72,8 @@ def getting_customer_info(customers_list):
     email = input('Enter your email address: ')
     
     if email in customers_list:
-        change_info = validate_input_string(f'Hi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do you want to keep your shipping address the same? (y/n) ', "Please only type 'y'(yes) or 'n'(no)!", ['y', 'n'])
-        if change_info.lower() == 'y':
+        change_info = validate_input_y_n(f'Hi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do you want to keep your shipping address the same? (y/n) ')
+        if change_info:
             return (email, customers_list[email]["name"], customers_list[email]["phone"], customers_list[email]["address"])
         else:
             address = input('Enter your new address: ')

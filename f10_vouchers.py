@@ -1,4 +1,4 @@
-from validate_input import validate_input_string
+from validate_input import validate_input_y_n
 
 vouchers = {
     "SALE1111": 0.8,
@@ -15,9 +15,9 @@ def apply_voucher(initial_price):
     :return: None
     """
     
-    applying = validate_input_string('Would you like to apply coupon? (y/n) ', "Please only type 'y' (yes) or 'n'(no)!", ['y', 'n'])
+    applying = validate_input_y_n('Would you like to apply coupon? (y/n) ')
     
-    if applying.lower() == 'y':
+    if applying:
         while True:
             coupon_input = input('Apply coupon: ')
             for voucher_type in vouchers.keys():    # Loop through different types of voucher
@@ -29,8 +29,8 @@ def apply_voucher(initial_price):
                     return new_price
             else:
                 # If the user types in an invalid voucher
-                try_again = validate_input_string('Invalid coupon! Would you like to try again? (y/n) ', "Please only type 'y' (yes) or 'n'(no)!", ['y', 'n'])
-                if try_again.lower() == 'n':
+                try_again = validate_input_y_n('Invalid coupon! Would you like to try again? (y/n) ')
+                if not try_again:
                     break
                 
     return initial_price        
