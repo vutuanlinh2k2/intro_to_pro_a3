@@ -4,7 +4,7 @@ from get_data import get_customers_data
 def customer_info():
     """
     This function will list all information of a specific customer using their email address to distinguish
-    :param customers_list: the list of customers in our database (list)
+    :param: None
     :return: None
     """
     customers_data = get_customers_data()

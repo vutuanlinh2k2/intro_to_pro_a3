@@ -92,8 +92,7 @@ def getting_customer_info(customers_list):
 def place_order():
     """
     This function will place the order of each customer
-    :param: book_list: the list of books in our database (list)
-    :param: customers_list: the list of customers in our database (list)
+    :param: None
     :return: None
     """
     books_list = get_books_data()

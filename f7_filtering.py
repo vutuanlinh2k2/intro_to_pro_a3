@@ -85,7 +85,7 @@ def filter_price(books_list):
 def filter():
     """
     This function will make the customer to decide filter by which category
-    :param books_list: the list of books in our database (list)
+    :param: None
     :return: None
     """
     print('Please choose to filter books by genre, pages or price.')

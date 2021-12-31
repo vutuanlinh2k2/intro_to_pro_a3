@@ -3,7 +3,7 @@ from books import books_list
 def get_books_data():
     """
     This function will convert data in txt file into py file
-    :param data_file: name of txt file (str)
+    :param: None
     :return: list of converted data (list)
     """
     books_data_dict = {}
@@ -32,6 +32,11 @@ def get_books_data():
     return books_list
 
 def get_customers_data():
+    """
+    This function will upadte the data of customers to the text file
+    :param: None
+    :return: dictionary of customer data (dict)
+    """
     customers_data_dict = {}
 
     # Open and read the file that need to be converted

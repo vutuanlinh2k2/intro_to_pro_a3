@@ -4,7 +4,7 @@ from get_data import get_books_data
 def list_all_books():
     """
     This function will list all the books of our store (including their name and ID)
-    :param books_list: the list of books in our database (list)
+    :param: None
     :return: None
     """
     books_list = get_books_data()

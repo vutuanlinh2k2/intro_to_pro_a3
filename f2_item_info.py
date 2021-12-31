@@ -7,7 +7,7 @@ from get_data import get_books_data
 def book_info():
     """
     This function will provide all the information of a specific book (including name, author, genre, description, price and rating)
-    :param books_list: the list of books in our database (list)
+    :param: None
     :return: None
     """
     books_list = get_books_data()

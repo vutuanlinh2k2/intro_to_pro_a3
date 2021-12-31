@@ -67,7 +67,7 @@ def sort_price(books_list):
 def sort():
     """
     This function will make the customer to decide sorting the book list based on which category
-    :param book_list: the list of books in our database (list)
+    :param: None
     :return: None
     """
     print('Please choose to sort books by name, author or prize.')

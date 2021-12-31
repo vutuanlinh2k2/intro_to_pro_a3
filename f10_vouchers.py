@@ -12,7 +12,7 @@ def apply_voucher(initial_price):
     """
     This function will help the customer to apply voucher
     :param initial_price: the initial price of that order (float)
-    :return: None
+    :return: the final price (float)
     """
     
     applying = validate_input_y_n('Would you like to apply coupon? (y/n) ')
@@ -26,11 +26,11 @@ def apply_voucher(initial_price):
                     new_price = initial_price * vouchers[coupon_input]
                     print('Voucher has been successfully applied!')
                     print(f"The total amount of money you have to pay is {new_price}")
-                    return new_price
             else:
                 # If the user types in an invalid voucher
                 try_again = validate_input_y_n('Invalid coupon! Would you like to try again? (y/n) ')
                 if not try_again:
                     break
-                
-    return initial_price        
+    else:
+        new_price = initial_price            
+    return new_price     

@@ -6,7 +6,7 @@ from update_data import update_book_rate
 def rating():
     """
     This function will make the customer to rate a book in the range of 1-5
-    :param books_list: the list of books in our database (list)
+    :param: None
     :return: None
     """
     # Ask the users the id of the book they want to rate
