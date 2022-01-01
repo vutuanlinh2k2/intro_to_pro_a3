@@ -11,6 +11,8 @@ def name_search():
 
     # Get the book data from other file
     books_list = get_books_data()
+
+    # Ask customers the name of the book they want to search
     search_name = input("Enter the name of the book you want to search: ")
     num = 0
 
@@ -18,7 +20,7 @@ def name_search():
     for book in books_list:
         if search_name.lower() in book["name"].lower():
 
-            # Print the information of the book book
+            # Print the information of the chosen book
             print("Id:", book["id"], "| Name:", book["name"], "| Author:",
                   book["author"], "| Quantity:", book["quantity"])
 

@@ -16,7 +16,7 @@ def selecting_books(books_list):
     
     # A loop allow users to select multiple books
     while True:
-        # Ask the users the id of the book they want to buy
+        # Ask users the id of the book they want to buy
         select_id = validate_input_number('Please enter the id of the book you want to buy: ', 1, len(books_list))
         
         # A loop to find the book users are looking for
@@ -70,12 +70,14 @@ def getting_customer_info(customers_list):
     :return: the customer's email (str), name (str), phone number (str), and address (str)
     """
     email = input('Enter your email address: ')
-    
+
+    # If the email in the customers database   
     if email in customers_list:
         change_info = validate_input_y_n(f'Hi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do you want to keep your shipping address the same? (y/n) ')
-        if change_info:
-            return (email, customers_list[email]["name"], customers_list[email]["phone"], customers_list[email]["address"])
-        else:
+        
+        if change_info:     # If the customer want to keep the address the same
+            return (email, customers_list[email]["name"], customers_list[email]["phone"], customers_list[email]["address"])           
+        else:   # If the customer want to change to a new address
             address = input('Enter your new address: ')
             update_customer_address(email, address)
             return (email, customers_list[email]["name"], customers_list[email]["phone"], address)

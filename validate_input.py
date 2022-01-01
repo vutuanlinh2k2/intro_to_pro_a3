@@ -67,6 +67,7 @@ def validate_input_y_n(input_message):
             print("Please only type 'y' (yes) or 'n'(no)!")
             continue
         
+        # Return True/False based on the input
         if user_input.lower() == 'y':
             return True
         

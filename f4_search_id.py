@@ -9,11 +9,18 @@ def id_search():
     :param: None
     :return: None
     """
+    # Get the book data from other file
     books_list = get_books_data()
+
+    # Ask customers the id of the book they want to search
     search_id = input("Enter the id of the book you want to search: ")
     num = 0
-    for book in books_list:
+
+    # Loop through each book in the book list
+    for book in books_list:      
         if book["id"] == int(search_id):
+
+            # Print the information of the chosen book
             print("Id:", book["id"], "| Name:", book["name"], "| Author:",
                   book["author"], "| Quantity:", book["quantity"])
             num += 1

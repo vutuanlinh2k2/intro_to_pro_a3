@@ -19,11 +19,13 @@ def get_books_data():
             books_data_dict[int(id)]["quantity"] = int(quantity)
             books_data_dict[int(id)]["num_of_rates"] = int(num_of_rates)
 
+            # Convert the rating to float type (Keep the same if is N/A)
             try:
                 books_data_dict[int(id)]["average_rate"] = float(average_rate)
             except ValueError:
                 books_data_dict[int(id)]["average_rate"] = average_rate
 
+    # Update the book database in the python file
     for book in books_list:
         book["quantity"] = books_data_dict[book["id"]]["quantity"]
         book["num_of_rates"] = books_data_dict[book["id"]]["num_of_rates"]
@@ -41,6 +43,8 @@ def get_customers_data():
 
     # Open and read the file that need to be converted
     with open('customers.txt', "r") as customers_data:
+
+        # Loop through each customer profile in the database
         for line in customers_data:
             [id, name, phone, email, address] = line.split(' | ')
             customers_data_dict[email] = {}
@@ -48,4 +52,5 @@ def get_customers_data():
             customers_data_dict[email]["name"] = name
             customers_data_dict[email]["phone"] = phone
             customers_data_dict[email]["address"] = address.strip()
+
     return customers_data_dict
