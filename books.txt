@@ -12,7 +12,7 @@
 12 | The 1619 Project: A New Origin Story | 10 | N/A | 0
 13 | Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience | 13 | N/A | 0
 14 | The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life | 12 | N/A | 0
-15 | The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | 14 | N/A | 0
+15 | The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | 14 | 3.3333333333333335 | 3
 16 | A Brief History of Time | 5 | N/A | 0
 17 | Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics | 15 | N/A | 0
 18 | The Universe in a Nutshell | 8 | N/A | 0

@@ -20,7 +20,7 @@ def rating():
             print('You are rating the book ', book['name'])
             
             # Ask them to rate the book
-            rating = validate_input_number('Please give us your rating for this book (0-5): ', 0, 5)
+            rating = validate_input_number('Please give us your rating for this book (1-5): ', 1, 5)
 
             update_book_rate(rate_id, rating)
             

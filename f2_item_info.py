@@ -10,11 +10,17 @@ def book_info():
     :param: None
     :return: None
     """
+    # Get the book data from other file
     books_list = get_books_data()
+
     # Ask the user for the id of the book that they want to see
     book_id = validate_input_number(
         "Enter the ID of the book that you want to see: ", 1, len(books_list))
+
+    # Idenfiy the chosen book in the book list    
     selected_book = books_list[int(book_id)]
+
+    # Print all the information of the chosen book
     print(selected_book['name'], 'written by', selected_book['author'])
     print('Genre:', selected_book['genre'],
           '| Number of pages:', selected_book['pages'])
