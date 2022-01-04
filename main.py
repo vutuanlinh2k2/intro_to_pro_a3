@@ -11,12 +11,12 @@ from f6_place_order import place_order
 # Advanced features
 from f7_filtering import filter
 from f8_sorting import sort
-from f9_rates import rating
-# The feature vouchers goes with place_order feature
+from f9_rating import rating
+# The feature vouchers goes with place_order feature.
 
 print('Welcome to our book store!')
 
-# A loop that let users do multiple actions before they quit
+# A loop that let users do multiple actions before they quit.
 while True:
     
     # Guiding users
@@ -30,11 +30,11 @@ while True:
         6 - Place order
         7 - Filtering
         8 - Sorting
-        9 - Rates
+        9 - Rating
         10 - Quit
     """)
     
-    # Let users choose their actions
+    # Let users choose their actions.
     n = validate_input_number("Which action do you want to perform?: ", 1, 10)
     
     if n == 1:
@@ -59,7 +59,7 @@ while True:
         print("Thank you for visiting our store. We hope to see you back soon!")
         break
     
-    # Ask if user want to go back and perform other actions
+    # Ask if user want to go back and perform other actions.
     input('\nReady to change to other actions. Just click enter. ')
     
     # Clear the screen

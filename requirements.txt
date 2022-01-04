@@ -1,7 +1,19 @@
 Python version: 3.8.5
 
 Team member contribution:
-- Tuan Linh: Write code for "Rates", "Placing order" features, compile the work of all members and make several changes for improvement
-- Hoang Minh: Write a part of book list, code for "Search_name", "Search_id", "Filtering", "Vouchers"  features
-- Thai Hoang: Write a part of book list, code for "Sorting" feature
-- Khue: Write code for "List_all_items", "Item_info", "Customer_info" features
+- Vu Tuan Linh (Leader): 
+    + Write code for "Rates", "Placing order" features.
+    + Write code for other files such as "get_data" and "update_data". 
+    + Compile the work of all members and make several changes for improvement.
+- Dau Hoang Minh: 
+    + Write a part of book list. 
+    + Write code for "Search_name", "Search_id", "Filtering", "Vouchers"  features.
+    + Add function docstring and comments.
+- Dang Thai Hoang: 
+    + Write a part of book list and update its format.
+    + Write code for "Sorting" feature, modify minor parts of code.
+    + Edit the demo video to submit to the teacher.
+- Hoang Vinh Khue: 
+    + Write code for "List_all_items", "Item_info", "Customer_info" features.
+    + Check the code and fix any bugs when running.
+    + Write and improve several comments.

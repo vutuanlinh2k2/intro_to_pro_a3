@@ -6,24 +6,24 @@ def update_book_rate(book_id, rate):
     :return: None
     """
 
-    # Open the text file in reading mode
+    # Open the text file in reading mode.
     with open('books.txt', "r") as books_data:  
         lines = books_data.readlines()
 
-    # Open the text file in writing mode
+    # Open the text file in writing mode.
     with open('books.txt', "w") as books_data:
 
-        for line in lines:  # Loop through each line in the text file (each line represents a customer profile)
-            [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')    # Identify each category of a customer profile
+        for line in lines:  # Loop through each line in the text file (each line represents a customer profile).
+            [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')    # Identify each category of a customer profile.
             
             if book_id == int(id):
 
-                if average_rate == 'N/A':   # WHen there is no rating for the chosen book
+                if average_rate == 'N/A':   # WHen there is no rating for the chosen book.
                     average_rate = str(rate)
-                else:   # When there are already ratings for the chosen book
+                else:   # When there are already ratings for the chosen book.
                     average_rate = str((float(average_rate) * int(num_of_rates) + rate) / (int(num_of_rates) + 1))
 
-                # Update the rating of the chosen book
+                # Update the rating of the chosen book.
                 num_of_rates = str(int(num_of_rates) + 1)   
                 updated_book_line = ' | '.join([id, name, quantity, average_rate, num_of_rates]) + '\n'
                 books_data.write(updated_book_line)
@@ -32,7 +32,7 @@ def update_book_rate(book_id, rate):
                 print('The current average rate for this book is', average_rate)
 
             else:
-                books_data.write(line)  # Write the same line if it is not the book customer choose
+                books_data.write(line)  # Write the same line if it is not the book customer choose.
 
                 
 def update_book_quantity(book_id, bought):
@@ -42,18 +42,18 @@ def update_book_quantity(book_id, bought):
     :param bought: the number of books are bought (int)
     :return: None
     """
-    # Open the text file in reading mode
+    # Open the text file in reading mode.
     with open('books.txt', "r") as books_data:
         lines = books_data.readlines()
 
-    # Open the text file in writing mode
+    # Open the text file in writing mode.
     with open('books.txt', "w") as books_data:
 
-        # Loop through each line in the text file (each line represents a specific book status)
+        # Loop through each line in the text file (each line represents a specific book status).
         for line in lines:
             [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')
 
-            # Update the quantity of books in the text file
+            # Update the quantity of books in the text file.
             if book_id == int(id):
                 quantity = str(int(quantity) - bought)
                 updated_book_line = ' | '.join([id, name, quantity, average_rate, num_of_rates])
@@ -71,13 +71,13 @@ def add_new_customer(name, phone, email, address):
     :param address: the new customer's address (str)
     :return: None
     """
-    # Calculate the number of customers in the database
+    # Calculate the number of customers in the database.
     num_customers = len(open('customers.txt').readlines())
 
-    # Open the text file in appending mode
+    # Open the text file in appending mode.
     with open('customers.txt', "a") as customers_data:
         
-        # Add the new customer profile
+        # Add the new customer profile.
         new_customer_id = str(num_customers + 1)
         new_customers_line = ' | '.join([new_customer_id, name, phone, email, address]) + '\n'
         customers_data.write(new_customers_line)
@@ -90,18 +90,18 @@ def update_customer_address(customer_email, new_address):
     :param new_address: the customer's new address (str)
     :return: None
     """
-    # Open the text file in reading mode
+    # Open the text file in reading mode.
     with open('customers.txt', "r") as customers_data:
         lines = customers_data.readlines()
     
-    # Open the text file in writing mode
+    # Open the text file in writing mode.
     with open('customers.txt', "w") as customers_data:
 
-        # Loop through each line in the text file (each line represents a customer profile)
+        # Loop through each line in the text file (each line represents a customer profile).
         for line in lines:
             [id, name, phone, email, _] = line.split(' | ')
 
-            # Update the customer profile
+            # Update the customer profile.
             if customer_email == email:
                 updated_customer_line = ' | '.join([id, name, phone, email, new_address]) + '\n'
                 customers_data.write(updated_customer_line)
