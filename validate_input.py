@@ -1,4 +1,6 @@
 # A file for storing general functions that can be used in other files
+import re
+
 
 # A function to validate the number input from users
 def validate_input_number(input_message, min, max):
@@ -72,6 +74,26 @@ def validate_input_y_n(input_message):
             return True
         
         return False
-        
+
+def validate_email(input_message):
+
+    while True:
+        email_input = input(input_message)
+        if re.fullmatch(r"[^@]+@[^@]+\.[^@]+", email_input):
+            return email_input
+        else:
+            print("Please enter a valid email address")
+            continue
+
+def validate_phone(input_message):
+
+    while True:
+        phone_input = input(input_message)
+        if re.fullmatch(r"(84|0[3|5|7|8|9])+([0-9]{8})\b", phone_input):
+            return phone_input
+        else:
+            print("Please enter a valid Vietnamese phone number")
+            continue
+
         
             

@@ -1,5 +1,5 @@
 from f10_vouchers import apply_voucher
-from validate_input import validate_input_number, validate_input_y_n
+from validate_input import validate_input_number, validate_input_y_n, validate_email, validate_phone
 from get_data import get_books_data, get_customers_data
 from update_data import update_book_quantity, add_new_customer, update_customer_address
 
@@ -69,7 +69,7 @@ def getting_customer_info(customers_list):
     :param: The list of customers in our database (list)
     :return: the customer's email (str), name (str), phone number (str), and address (str)
     """
-    email = input('Enter your email address: ')
+    email = validate_email('Enter your email address: ')
 
     # If the email in the customers database   
     if email in customers_list:
@@ -84,7 +84,7 @@ def getting_customer_info(customers_list):
         
     # If the email is not in the customers database, ask them all the required information     
     name = input('Enter your name: ')
-    phone = input('Enter your phone number: ')
+    phone = validate_phone('Enter your phone number: ')
     address = input('Enter your address: ')
         
     add_new_customer(name, phone, email, address)
