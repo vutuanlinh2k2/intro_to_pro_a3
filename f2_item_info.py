@@ -6,7 +6,7 @@ from get_data import get_books_data
 
 def book_info():
     """
-    This function will provide all the information of a specific book (including name, author, genre, description, price and rating)
+    This function will provide all the information of a specific book (including name, author, genre, number of pages, description, price and rating)
     :param: None
     :return: None
     """
@@ -21,10 +21,11 @@ def book_info():
     selected_book = books_list[int(book_id)]
 
     # Print all the information of the chosen book
-    print(selected_book['name'], 'written by', selected_book['author'])
+    print("\nHere is the detailed information of the book you require: \n")
+    print("Name:" ,selected_book['name'], '| Author:', selected_book['author'])
     print('Genre:', selected_book['genre'],
           '| Number of pages:', selected_book['pages'])
-    print(selected_book['description'])
+    print("\nDescription:", selected_book['description'])
     print('Price: $', selected_book['price'],
           '| Quantity:', selected_book['quantity'])
     print('Avarage ratings:', selected_book['average_rate'],
