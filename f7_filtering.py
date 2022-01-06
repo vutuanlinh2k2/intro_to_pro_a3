@@ -28,7 +28,7 @@ def filter_genre(books_list):
     # Print the books that match that genre
     for book in books_list:
         if chosen_genre.lower() in book["genre"]:
-            print("Id:", book["id"], "| Name:",
+            print("Id: {0:>2}".format(book["id"]), "| Name:",
                   book["name"], "| Author:", book["author"])
 
 
@@ -54,7 +54,7 @@ def filter_pages(books_list):
     # Sorting the books given the minimum and maximum pages number
     for book in books_list:
         if minimum_page_numbers <= book["pages"] <= maximum_page_numbers:
-            print("Id:", book["id"], "| Name:", book["name"],
+            print("Id: {0:>2}".format(book["id"]), "| Name:", book["name"],
                   "| Author:", book["author"], "| Pages:", book["pages"])
             num += 1
 
@@ -83,7 +83,7 @@ def filter_price(books_list):
     # Sorting the books given the minimum and maximum price
     for book in books_list:
         if minimum_price <= book["price"] < maximum_price:
-            print("Id:", book["id"], "| Name:", book["name"],
+            print("Id: {0:>2}".format(book["id"]), "| Name:", book["name"],
                   "| Author:", book["author"], "| Price: $", book["price"])
             num += 1
 

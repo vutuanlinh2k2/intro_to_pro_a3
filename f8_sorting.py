@@ -22,7 +22,7 @@ def sort_name(books_list):
 
     # Printing the sorted book list by name
     for book in sort_name_list:
-        print(f'Id: {book["id"]} | Name: {book["name"]}')
+        print('Id: {0:>2} | Name: {1}'.format(book["id"], book["name"]))
 
 
 def sort_author(books_list):
@@ -46,7 +46,8 @@ def sort_author(books_list):
 
     # Printing the sorted book list
     for book in sort_author_list:
-        print(f'Id: {book["id"]} | Name: {book["name"]} | Author: {book["author"]}')
+        print('Id: {0:>2} | Name: {1} | Author: {2}'.format(
+            book["id"], book["name"], book["author"]))
 
 
 def sort_price(books_list):
@@ -69,7 +70,8 @@ def sort_price(books_list):
 
     # Printing the sorted book list
     for book in sort_pricelist:
-        print(f'Id: {book["id"]} | Name: {book["name"]} | Price: {book["price"]}')
+        print('Id: {0:>2} | Name: {1} | Price: {2}'.format(
+            book["id"], book["name"], book["price"]))
 
 
 def sort():
@@ -82,7 +84,7 @@ def sort():
     books_list = get_books_data()
 
     # Ask the user to choose a sorting method
-    print('Please choose to sort books by name, author or prize.')
+    print('Please choose to sort books by name, author or price.')
     sort_type = validate_input_string('Choose sorting type: ',
                                       "Please only choose between 'name', 'author' or 'price'!",
                                       ['name', 'author', 'price'])
