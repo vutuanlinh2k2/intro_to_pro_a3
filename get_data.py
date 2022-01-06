@@ -1,5 +1,6 @@
 from books import books_list
 
+
 def get_books_data():
     """
     This function will convert data in txt file into py file
@@ -33,6 +34,7 @@ def get_books_data():
 
     return books_list
 
+
 def get_customers_data():
     """
     This function will upadte the data of customers to the text file
@@ -43,7 +45,6 @@ def get_customers_data():
 
     # Open and read the file that need to be converted
     with open('customers.txt', "r") as customers_data:
-
         # Loop through each customer profile in the database
         for line in customers_data:
             [id, name, phone, email, address] = line.split(' | ')

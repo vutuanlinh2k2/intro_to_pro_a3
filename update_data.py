@@ -18,10 +18,10 @@ def update_book_rate(book_id, rate):
             
             if book_id == int(id):
 
-                if average_rate == 'N/A':   # WHen there is no rating for the chosen book.
+                if average_rate == 'N/A':   # When there is no rating for the chosen book.
                     average_rate = str(rate)
                 else:   # When there are already ratings for the chosen book.
-                    average_rate = str((float(average_rate) * int(num_of_rates) + rate) / (int(num_of_rates) + 1))
+                    average_rate = str(round((float(average_rate) * int(num_of_rates) + rate) / (int(num_of_rates) + 1),1))
 
                 # Update the rating of the chosen book.
                 num_of_rates = str(int(num_of_rates) + 1)   
