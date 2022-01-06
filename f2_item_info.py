@@ -18,7 +18,7 @@ def book_info():
         "Enter the ID of the book that you want to see: ", 1, len(books_list))
 
     # Idenfiy the chosen book in the book list    
-    selected_book = books_list[int(book_id)]
+    selected_book = books_list[int(book_id) - 1]
 
     # Print all the information of the chosen book
     print("\nHere is the detailed information of the book you require: \n")
