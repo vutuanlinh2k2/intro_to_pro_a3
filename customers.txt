@@ -3,3 +3,6 @@
 3 | Dau | 0999999393 | dau@gmail.com | Campuchia
 4 | Huynh | 0890456713 | quochuynh75@gmail.com | Hanoi, Vietnam
 5 | Khue | 0967526190 | khue123@gmail.com | Ha Noi
+6 | khue | 0962283938 | khue@gmail.com | HCMC
+7 | Khue | 0916560202 | khuecr7@gmail.com | Portugal
+8 | Messi | 0916342233 | messi@gmail.com | Argentina
