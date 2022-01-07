@@ -30,15 +30,14 @@ def apply_voucher(initial_price):
                     new_price = initial_price * vouchers[coupon_input]
                     print('Voucher has been successfully applied!')
                     print(f"The total amount of money you have to pay is {new_price}")
-                
+                    return new_price
                 # If the user types in an invalid voucher
-                else:
-                    try_again = validate_input_y_n('Invalid coupon! Would you like to try again? (y/n) ')
-                    if not try_again:   # Quit if customers do not want to apply coupon anymore
-                        break
+            else:
+                try_again = validate_input_y_n('Invalid coupon! Would you like to try again? (y/n) ')
+                if not try_again:   # Quit if customers do not want to apply coupon anymore
+                    break
 
     # Price remains the same if no voucher was applied
-    else:
-        new_price = initial_price    
 
-    return new_price     
+    return initial_price 
+
