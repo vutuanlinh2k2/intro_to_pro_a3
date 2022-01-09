@@ -2,8 +2,9 @@ from validate_input import validate_input_number
 from get_data import get_books_data
 from update_data import update_book_rate
 
+# Function 9: let users to rate a book
 
-# A function that let users to rate a book
+
 def rating():
     """
     This function will make the customer to rate a book in the range of 1-5

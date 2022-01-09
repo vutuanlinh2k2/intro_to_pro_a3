@@ -1,6 +1,8 @@
 from validate_input import *
 from get_data import get_books_data
 
+# Function 7: Filtering
+
 
 def filter_genre(books_list):
     """

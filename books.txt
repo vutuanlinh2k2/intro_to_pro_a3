@@ -1,5 +1,5 @@
-1 | Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | 12 | N/A | 0
-2 | The Design of Everyday Things: Revised and Expanded Edition | 19 | 4.5 | 4
+1 | Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | 10 | N/A | 0
+2 | The Design of Everyday Things: Revised and Expanded Edition | 16 | 4.6 | 5
 3 | The 100-Year-Old Man Who Climbed Out the Window and Disappeared | 14 | N/A | 0
 4 | Sapiens: A Brief History of Humankind | 7 | N/A | 0
 5 | The Da Vinci Code: A Novel | 5 | N/A | 0

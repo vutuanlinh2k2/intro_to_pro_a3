@@ -22,9 +22,8 @@ systems. Here, you'll get a proven system that can take you to new heights.
         "price": 18.99,
         "description": """
 The Design of Everyday Things shows that good, usable design is possible. The rules are simple: make things 
-visible, exploit natural relationships that couple function and control, and make intelligent use of 
-constraints. The goal: guide the user effortlessly to the right action on the right control 
-at the right time.
+visible, exploit natural relationships that couple function and control, and make intelligent use of constraints. 
+The goal: guide the user effortlessly to the right action on the right control at the right time.
         """,
     },
     {
@@ -36,11 +35,11 @@ at the right time.
         "price": 15.99,
         "description": """
 After a long and eventful life, Allan Karlsson ends up in a nursing home, believing it to be his last stop. 
-The only problem is that he's still in good health, and in one day, he turns 100. A big celebration is 
-in the works, but Allan really isn't interested (and he'd like a bit more control over his vodka consumption). 
-So he decides to escape. He climbs out the window in his slippers and embarks on a hilarious and 
-entirely unexpected journey, involving, among other surprises, a suitcase stuffed with cash, some unpleasant 
-criminals, a friendly hot-dog stand operator, and an elephant (not to mention a death by elephant).
+The only problem is that he's still in good health, and in one day, he turns 100. A big celebration is in the 
+works, but Allan really isn't interested (and he'd like a bit more control over his vodka consumption). So he 
+decides to escape. He climbs out the window in his slippers and embarks on a hilarious and entirely unexpected 
+journey, involving, among other surprises, a suitcase stuffed with cash, some unpleasant criminals, a friendly 
+hot-dog stand operator, and an elephant (not to mention a death by elephant).
         """,
     },
     {
@@ -85,9 +84,9 @@ an ancient truth could be lost forever—and they themselves might end up as col
         "description": """
 Robert Langdon, Harvard professor of symbology and religious iconology, arrives at the ultramodern
 Museum Bilbao to attend a major announcement—the unveiling of a discovery that “will change the face 
-of science forever.” The evening’s host is Edmond Kirsch, a forty-year-old billionaire and futurist whose 
-dazzling high-tech inventions and audacious predictions have made him a renowned global figure. Kirsch, who 
-was one of Langdon’s first students at Harvard two decades earlier, is about to reveal an astonishing 
+of science forever.” The evening’s host is Edmond Kirsch, a forty-year-old billionaire and futurist 
+dazzling high-tech inventions and audacious predictions have made him a renowned global figure. Kirsch
+- one of Langdon’s first students at Harvard two decades earlier, is about to reveal an astonishing 
 breakthrough . . . one that will answer two of the fundamental questions of human existence.
         """,
     },
@@ -117,11 +116,11 @@ Smith's education wasn't nearly over.
         "pages": 224,
         "price": 9.59,
         "description": """
-Welcome to an all new-edition of Wreck This Journal, now in spectacular full color! 
-Inside, you'll find prompts for painting, shredding, transforming, and unleashing your creativity. 
-With a mix of new, altered, and favorite prompts, Wreck This Journal: Now in Color invites you to wreck with 
-color: mixing colors to make mud, letting chance dictate your color choice, weaving with brightly colored strips 
-of paper, and more. What colors will you use to you wreck your journal? 
+Welcome to an all new-edition of Wreck This Journal, now in spectacular full color! Inside, you'll find 
+prompts for painting, shredding, transforming, and unleashing your creativity. With a mix of new, altered, 
+and favorite prompts, Wreck This Journal: Now in Color invites you to wreck with color: mixing colors to 
+make mud, letting chance dictate your color choice, weaving with brightly colored strips of paper, and more. 
+What colors will you use to you wreck your journal? 
         """,
     },
 
@@ -133,12 +132,12 @@ of paper, and more. What colors will you use to you wreck your journal?
         "pages": 224,
         "price": 7.49,
         "description": """
-After a disastrous field day competition at school, Greg decides that when it comes to his athletic
-career, he’s officially retired. But after his mom urges him to give sports one more chance, he 
-reluctantly agrees to sign up for basketball. Tryouts are a mess, and Greg is sure he won’t make the cut.
-But he unexpectedly lands a spot on the worst team. As Greg and his new teammates start the season, their
-chances of winning even a single game look slim. But in sports, anything can happen. When everything is on
-the line and the ball is in Greg’s hands, will he rise to the occasion? Or will he blow his big shot? 
+After a disastrous field day competition at school, Greg decides that when it comes to his athletic career, 
+he’s officially retired. But after his mom urges him to give sports one more chance, he reluctantly agrees 
+to sign up for basketball. Tryouts are a mess, and Greg is sure he won’t make the cut.But he unexpectedly 
+lands a spot on the worst team. As Greg and his new teammates start the season, their chances of winning 
+even a single game look slim. But in sports, anything can happen. When everything is on the line and the 
+ball is in Greg’s hands, will he rise to the occasion? Or will he blow his big shot? 
         """,
     },
 
@@ -167,8 +166,8 @@ will Greg find a way to survive? Or is going “old school” just too hard for 
         "description": """
 Bunny Mellon Style is the intimate story of one of the most unintentionally influential women of 
 twentieth-century design. Learn how her style developed, take a look inside the family homes she designed,
-get the flavor of her collaborations with French designers of fashion and jewelry, and begin to understand her 
-vast and lasting influence on the world of design. An abundance of imagery is used, including professional and 
+get the flavor of her collaborations with French designers of fashion and jewelry, and begin to understand  
+vast and lasting influence on the world of design. An abundance of imagery is used, including professional,
 archival photography, watercolors, whimsical hand drawings, and sketches. 
         """,
     },
@@ -212,13 +211,13 @@ with one another in a way that builds connection.
         "pages": 240,
         "price": 13.99,
         "description": """
-In this easy-to-implement guide, you'll start with the rules of the Blue Zones Challenge, including 
-tips and tricks from the five Blue Zones--locations around the world where people consistently live to 
-100--advice for setting up a successful kitchen and pantry, and resources for expanding you support network. 
-After four weeks--and with the help of easy-to-use worksheets and recipes--you'll see results in your weight, 
-your well-being, and your general health. From there, follow the Blue Zones challenge through the rest of the 
-year with an 11-month sustainability calendar that will continue to encourage you and build upon the foundation 
-you've already started.
+In this easy-to-implement guide, you'll start with the rules of the Blue Zones Challenge, including tips and 
+tricks from the five Blue Zones--locations around the world where people consistently live to 100--advice for 
+setting up a successful kitchen and pantry, and resources for expanding you support network. After four weeks-
+and with the help of easy-to-use worksheets and recipes--you'll see results in your weight, your well-being, 
+and your general health. From there, follow the Blue Zones challenge through the rest of the year with an 11
+-month sustainability calendar that will continue to encourage you and build upon the foundation you've already 
+started.
         """,
     },
 
@@ -233,9 +232,9 @@ you've already started.
 For decades, we’ve been told that positive thinking is the key to a happy, rich life. "F**k positivity," 
 Mark Manson says. "Let’s be honest, shit is f**ked and we have to live with it." In his wildly popular 
 Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, 
-honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, 
-let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding them with gold 
-medals just for showing up.
+honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the 
+coddling, let’s-all-feel-good mindset that has infected modern society and spoiled a generation, rewarding 
+them with gold medals just for showing up.
         """,
     },
 
@@ -319,8 +318,8 @@ has a destiny that he was born to fulfill. A destiny that others would kill to k
         "description": """
 In his fifth year at Hogwart's, Harry faces challenges at every turn, from the dark threat of 
 He-Who-Must-Not-Be-Named and the unreliability of the government of the magical world to the rise  
-as the keeper of the Gryffindor Quidditch Team. Along the way he learns about the strength of his friends, 
-the fierceness of his enemies, and the meaning of sacrifice.
+as the keeper of the Gryffindor Quidditch Team. Along the way he learns about the strength of his 
+friends, the fierceness of his enemies, and the meaning of sacrifice.
         """,
     },
 
@@ -367,8 +366,8 @@ is midway through his training as a wizard and his coming of age. Harry wants to
 Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's 
 supposed to take place at Hogwarts this year, an event involving two other rival schools of magic, and a 
 competition that hasn't happened for a hundred years. He wants to be a normal, fourteen-year-old wizard. But 
-unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be 
-        deadly.
+unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can 
+be deadly.
         """,
     },
 
@@ -380,8 +379,8 @@ unfortunately for Harry Potter, he's not normal - even by wizarding standards. A
         "pages": 652,
         "price": 30.45,
         "description": """
-The war against Voldemort is not going well; even the Muggles have been affected. Dumbledore is absent 
-from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses. 
+The war against Voldemort is not going well; even the Muggles have been affected. Dumbledore is absent from 
+Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses. 
 And yet . . . as with all wars, life goes on. Sixth-year students learn to Apparate. Teenagers flirt and fight 
 and fall in love. Harry receives some extraordinary help in Potions from the mysterious Half-Blood Prince. And 
 with Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort -- and 
@@ -416,10 +415,10 @@ not offer one small suggestion before you embark on your final adventure with Ha
         "pages": 432,
         "price": 24.83,
         "description": """
-Best-selling author Al Sweigart shows you how to easily build over 80 fun programs with minimal 
-code and maximum creativity. If you’ve mastered basic Python syntax and you’re ready to start writing 
-programs, you’ll find The Big Book of Small Python Projects both enlightening and fun. This collection of 81 
-Python projects will have you making digital art, games, animations, counting pro- grams, and more right away. 
+Best-selling author Al Sweigart shows you how to easily build over 80 fun programs with minimal code and 
+maximum creativity. If you’ve mastered basic Python syntax and you’re ready to start writing programs, 
+you’ll find The Big Book of Small Python Projects both enlightening and fun. This collection of 81 Python 
+projects will have you making digital art, games, animations, counting pro- grams, and more right away. 
 Once you see how the code works, you’ll practice re-creating the programs and experiment by adding your own 
 custom touches.
         """,

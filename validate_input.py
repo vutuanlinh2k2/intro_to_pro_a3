@@ -55,7 +55,8 @@ def validate_input_string(input_message, error_message, valid_strings):
             continue
         
         return user_input.lower()
-    
+
+
 def validate_input_y_n(input_message):
     """
     This function will check the input number of customer if it is a string that meets the requirement
@@ -78,6 +79,7 @@ def validate_input_y_n(input_message):
         
         return False
 
+
 def validate_email(input_message):
     """
     This function will check if the input has email account format
@@ -95,6 +97,7 @@ def validate_email(input_message):
             print("Please enter a valid email address")
             continue
 
+
 def validate_phone(input_message):
     """
     This function will check if the input has Vietnamese phone number format
@@ -111,6 +114,3 @@ def validate_phone(input_message):
         else:
             print("Please enter a valid Vietnamese phone number")
             continue
-
-        
-            

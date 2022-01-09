@@ -1,6 +1,8 @@
 from get_data import get_customers_data
 
 # Feature 5: List all info of a specific customer
+
+
 def customer_info():
     """
     This function will list all information of a specific customer using their email address to distinguish

@@ -14,7 +14,8 @@ def update_book_rate(book_id, rate):
     with open('books.txt', "w") as books_data:
 
         for line in lines:  # Loop through each line in the text file (each line represents a customer profile).
-            [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')    # Identify each category of a customer profile.
+            [id, name, quantity, average_rate, num_of_rates] = line.split(' | ')
+            # Identify each category of a customer profile.
             
             if book_id == int(id):
 

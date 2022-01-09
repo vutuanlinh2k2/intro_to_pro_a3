@@ -1,5 +1,8 @@
 from validate_input import validate_input_y_n
 
+# Feature 10: Applying voucher
+
+
 # Declare list of vouchers with discount rate for each one
 vouchers = {
     "SALE1111": 0.8,
@@ -31,13 +34,11 @@ def apply_voucher(initial_price):
                     print('Voucher has been successfully applied!')
                     print(f"The total amount of money you have to pay is {new_price}")
                     return new_price
-                # If the user types in an invalid voucher
-            else:
+            else:  # If the user types in an invalid voucher
                 try_again = validate_input_y_n('Invalid coupon! Would you like to try again? (y/n) ')
                 if not try_again:   # Quit if customers do not want to apply coupon anymore
                     break
 
     # Price remains the same if no voucher was applied
-
     return initial_price 
 
