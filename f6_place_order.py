@@ -41,7 +41,7 @@ def selecting_books(books_list):
                 number = validate_input_number('How many of them would you like to buy? ', 1, book["quantity"])
 
                 # Update the books users have selected, the total price and the books database
-                total += float("{:.2f}".format(number * book["price"]))
+                total += number * book["price"]
                 books_info.append({
                     'id': book["id"],
                     'name': book['name'],
