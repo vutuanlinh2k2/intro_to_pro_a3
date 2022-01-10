@@ -52,7 +52,7 @@ def selecting_books(books_list):
 
                 # Give them the info of the book they just add to their order
                 print(f'You have added {str(number)} copies of {book["name"]} to your order!')
-                print(f'The total price of your order is now at ${total}.')
+                print('The total price of your order is now at ${:.2f}.'.format(total))
 
                 # Ask users if they want to buy more books
                 buy_more = validate_input_y_n('\nWould you like to buy more books? (y/n) ')
@@ -62,7 +62,7 @@ def selecting_books(books_list):
                     print('\nYou have bought:')
                     for book in books_info:
                         print(book['number'], ' copies of ', book['name'], ' .')
-                    print(f'\nThe total price of your order (before applying voucher) is ${total}.')
+                    print('\nThe total price of your order (before applying voucher) is ${:.2f}.'.format(total))
 
                     return total, books_info
 
@@ -125,7 +125,7 @@ def place_order():
     print('\nThe summary of your order: ')
     for book in books_info:
         print(book['number'], 'copies of', book['name'])
-    print(f'\nThe total price of your order is {final_total}$.')
+    print(f'\nThe total price of your order is ${final_total}.')
     print('\nYour email: ', email)
     print('Your name: ', name)
     print('Your phone number: ', phone)

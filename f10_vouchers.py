@@ -30,9 +30,10 @@ def apply_voucher(initial_price):
             for voucher_type in vouchers.keys():               
                 if voucher_input == voucher_type:
                     # Applying the voucher
-                    new_price = round(initial_price * vouchers[voucher_input], 2)
+                    new_price = initial_price * vouchers[voucher_input]
                     print('\nVoucher has been successfully applied!')
-                    print(f"The total amount of money you have to pay is {new_price}")
+                    print(
+                        "The total amount of money you have to pay is ${:.2f}".format(new_price))
                     return new_price
             else:  # If the user types in an invalid voucher
                 try_again = validate_input_y_n('\nInvalid voucher! Would you like to try again? (y/n) ')
