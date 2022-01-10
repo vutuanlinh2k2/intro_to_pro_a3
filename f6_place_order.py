@@ -20,7 +20,7 @@ def selecting_books(books_list):
     # A loop allow users to select multiple books
     while True:
         # Ask users the id of the book they want to buy
-        select_id = validate_input_number('Please enter the id of the book you want to buy: ', 1, len(books_list))
+        select_id = validate_input_number('\nPlease enter the id of the book you want to buy: ', 1, len(books_list))
 
         # A loop to find the book users are looking for
         for book in books_list:
@@ -29,16 +29,16 @@ def selecting_books(books_list):
 
                 # If no copies with this id left, ask them to select other books
                 if book["quantity"] == 0:
-                    print('Sorry, this book has been sold out. Please select another book instead.')
+                    print('\nSorry, this book has been sold out. Please select another book instead.')
                     break
 
                 # If there still copies with this id, provide users some info of the book
-                print(f'You are adding the book {book["name"]} to your order.')
+                print(f'\nYou are adding the book {book["name"]} to your order.')
                 print(
                     f'There are {str(book["quantity"])} copies of this book left. Each copy cost ${str(book["price"])}.')
 
                 # Ask for number of copies they want to buy
-                number = validate_input_number('How many of them would you like to buy? ', 1, book["quantity"])
+                number = validate_input_number('\nHow many of them would you like to buy? ', 1, book["quantity"])
 
                 # Update the books users have selected, the total price and the books database
                 total += number * book["price"]
@@ -55,14 +55,14 @@ def selecting_books(books_list):
                 print(f'The total price of your order is now at ${total}.')
 
                 # Ask users if they want to buy more books
-                buy_more = validate_input_y_n('Would you like to buy more books? (y/n) ')
+                buy_more = validate_input_y_n('\nWould you like to buy more books? (y/n) ')
 
                 # If they do not want to buy more, print the summary of all the book they have selected
                 if not buy_more:
-                    print('You have bought:')
+                    print('\nYou have bought:')
                     for book in books_info:
                         print(book['number'], ' copies of ', book['name'], ' .')
-                    print(f'The total price of your order (before applying voucher) is ${total}.')
+                    print(f'\nThe total price of your order (before applying voucher) is ${total}.')
 
                     return total, books_info
 
@@ -74,19 +74,19 @@ def getting_customer_info(customers_list):
     :param: The list of customers in our database (list)
     :return: the customer's email (str), name (str), phone number (str), and address (str)
     """
-    email = validate_email('Enter your email address: ')
+    email = validate_email('\nEnter your email address: ')
 
     # If the email in the customers database   
     if email in customers_list:
         change_info = validate_input_y_n(
-            f'Hi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do '
+            f'\nHi {customers_list[email]["name"]}. It appears that you have made previous order(s) in our store. Do '
             f'you want to keep your shipping address the same? (y/n) ')
 
         if change_info:  # If the customer want to keep the address the same
             return (
                 email, customers_list[email]["name"], customers_list[email]["phone"], customers_list[email]["address"])
         else:  # If the customer want to change to a new address
-            address = input('Enter your new address: ')
+            address = input('\nEnter your new address: ')
             update_customer_address(email, address)
             return email, customers_list[email]["name"], customers_list[email]["phone"], address
 
@@ -118,12 +118,15 @@ def place_order():
     # Getting user info
     (email, name, phone, address) = getting_customer_info(customers_list)
 
+    # Clear the screen before the summary
+    for i in range(3):
+        print('\n')
     # Print the summary of their order
-    print('The summary of your order: ')
+    print('\nThe summary of your order: ')
     for book in books_info:
         print(book['number'], 'copies of', book['name'])
-    print(f'The total price of your order is {final_total}$.')
-    print('Your email: ', email)
+    print(f'\nThe total price of your order is {final_total}$.')
+    print('\nYour email: ', email)
     print('Your name: ', name)
     print('Your phone number: ', phone)
     print('Your address: ', address)

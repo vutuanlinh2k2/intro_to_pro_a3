@@ -29,7 +29,7 @@ def update_book_rate(book_id, rate):
                 updated_book_line = ' | '.join([id, name, quantity, average_rate, num_of_rates]) + '\n'
                 books_data.write(updated_book_line)
 
-                print('Thank you for rating this book!')
+                print('\nThank you for rating this book!')
                 print('The current average rate for this book is', average_rate)
 
             else:

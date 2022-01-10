@@ -19,7 +19,7 @@ def apply_voucher(initial_price):
     :return: the final price (float)
     """
     # Ask customers to choose to apply voucher or not
-    applying = validate_input_y_n('Would you like to apply a voucher? (y/n) ')
+    applying = validate_input_y_n('\nWould you like to apply a voucher? (y/n) ')
     
     # If customers choose to apply voucher
     if applying:     
@@ -31,11 +31,11 @@ def apply_voucher(initial_price):
                 if voucher_input == voucher_type:
                     # Applying the voucher
                     new_price = round(initial_price * vouchers[voucher_input], 2)
-                    print('Voucher has been successfully applied!')
+                    print('\nVoucher has been successfully applied!')
                     print(f"The total amount of money you have to pay is {new_price}")
                     return new_price
             else:  # If the user types in an invalid voucher
-                try_again = validate_input_y_n('Invalid voucher! Would you like to try again? (y/n) ')
+                try_again = validate_input_y_n('\nInvalid voucher! Would you like to try again? (y/n) ')
                 if not try_again:   # Quit if customers do not want to apply voucher anymore
                     break
 

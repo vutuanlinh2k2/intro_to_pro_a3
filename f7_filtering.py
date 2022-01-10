@@ -19,15 +19,16 @@ def filter_genre(books_list):
                 genre_list.append(genre)
 
     # Showcase all the genres for the users to choose from
-    print('All the genres available include:')
+    print('\nAll the genres available include:')
     for genre in genre_list:
         print(genre)
 
     # Get the user's option
     chosen_genre = validate_input_string(
-        "Please choose a genre: ", 'Please choose a correct genre', genre_list)
+        "\nPlease choose a genre: ", 'Please choose a correct genre', genre_list)
 
     # Print the books that match that genre
+    print('\n')
     for book in books_list:
         if chosen_genre.lower() in book["genre"]:
             print("Id: {0:>2}".format(book["id"]), "| Name:",
@@ -43,7 +44,7 @@ def filter_pages(books_list):
     num = 0
     # Get the user's data
     minimum_page_numbers = validate_input_number(
-        'Enter the minimum pages: ', 0, 100000)
+        '\nEnter the minimum pages: ', 0, 10000)
     maximum_page_numbers = validate_input_number(
         'Enter the maximum pages: ', 0, 10000)
 
@@ -54,6 +55,7 @@ def filter_pages(books_list):
             'Enter the maximum pages: ', 0, 10000)
 
     # Sorting the books given the minimum and maximum pages number
+    print('\n')
     for book in books_list:
         if minimum_page_numbers <= book["pages"] <= maximum_page_numbers:
             print("Id: {0:>2}".format(book["id"]), "| Name:", book["name"],
@@ -73,7 +75,7 @@ def filter_price(books_list):
     """
     num = 0
     # Get the user's data
-    minimum_price = validate_input_number('Enter the minimum price: ', 0, 100)
+    minimum_price = validate_input_number('\nEnter the minimum price: ', 0, 100)
     maximum_price = validate_input_number('Enter the maximum price: ', 0, 100)
 
     # Get the user's data again if the minimum price is larger than the maximum one
@@ -83,6 +85,7 @@ def filter_price(books_list):
             'Enter the maximum pages: ', 0, 100)
 
     # Sorting the books given the minimum and maximum price
+    print('\n')
     for book in books_list:
         if minimum_price <= book["price"] < maximum_price:
             print("Id: {0:>2}".format(book["id"]), "| Name:", book["name"],
@@ -104,8 +107,8 @@ def filter():
     books_list = get_books_data()
 
     # Ask the user to choose a filter method
-    print('Please choose to filter books by genre, pages or price.')
-    sort_type = validate_input_string('Choose filter type: ', "Please only choose between 'genre', 'pages' or 'price'!",
+    print('\nPlease choose to filter books by genre, pages or price.')
+    sort_type = validate_input_string('Choose filter type: ', "\nPlease only choose between 'genre', 'pages' or 'price'!",
                                       ['genre', 'pages', 'price'])
     if sort_type == 'genre':
         filter_genre(books_list)

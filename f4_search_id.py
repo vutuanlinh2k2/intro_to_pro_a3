@@ -21,6 +21,7 @@ def id_search():
         if book["id"] == int(search_id):
 
             # Print the information of the chosen book
+            print('\n')
             print("Id:", book["id"], "| Name:", book["name"], "| Author:",
                   book["author"], "| Quantity:", book["quantity"])
             num += 1

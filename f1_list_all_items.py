@@ -11,7 +11,7 @@ def list_all_books():
     """
     # Get the book data from other file
     books_list = get_books_data()
-    print("All books available:")
+    print("\nAll books available:")
 
     # Loop through each book in the book list
     for book in books_list:

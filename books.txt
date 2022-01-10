@@ -1,8 +1,8 @@
-1 | Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | 10 | N/A | 0
+1 | Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones | 7 | 3.8 | 4
 2 | The Design of Everyday Things: Revised and Expanded Edition | 16 | 4.6 | 5
 3 | The 100-Year-Old Man Who Climbed Out the Window and Disappeared | 14 | N/A | 0
 4 | Sapiens: A Brief History of Humankind | 7 | N/A | 0
-5 | The Da Vinci Code: A Novel | 5 | N/A | 0
+5 | The Da Vinci Code: A Novel | 4 | 2.0 | 1
 6 | Origin: A Novel | 13 | N/A | 0
 7 | Will | 19 | N/A | 0
 8 | Wreck This Journal: Now in Color | 12 | N/A | 0
@@ -11,18 +11,18 @@
 11 | Bunny Mellon Style | 10 | N/A | 0
 12 | The 1619 Project: A New Origin Story | 9 | N/A | 0
 13 | Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience | 13 | N/A | 0
-14 | The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life | 12 | 2.0 | 1
-15 | The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | 11 | 3.0 | 4
+14 | The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life | 11 | 2.0 | 1
+15 | The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | 9 | 3.0 | 4
 16 | A Brief History of Time | 5 | N/A | 0
-17 | Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics | 13 | N/A | 0
+17 | Blockchain And Distributed Ledgers: Mathematics, Technology, And Economics | 11 | N/A | 0
 18 | The Universe in a Nutshell | 8 | N/A | 0
 19 | Harry Potter and the Sorcerer's Stone (1) | 2 | N/A | 0
-20 | Harry Potter and the Order of the Phoenix (5) | 3 | 5.0 | 1
+20 | Harry Potter and the Order of the Phoenix (5) | 2 | 5.0 | 1
 21 | Harry Potter and the Chamber of Secrets (2) | 6 | N/A | 0
 22 | Harry Potter and the Prisoner of Azkaban (3) | 10 | N/A | 0
 23 | Harry Potter and the Goblet of Fire (4) | 8 | N/A | 0
 24 | Harry Potter and the Half-Blood Prince (6) | 6 | N/A | 0
 25 | Harry Potter and the Deathly Hallows (7) | 1 | 3.0 | 1
 26 | The Big Book of Small Python Projects: 81 Easy Practice Programs | 5 | N/A | 0
-27 | The Cold Start Problem: How to Start and Scale Network Effects | 6 | N/A | 0
-28 | The Deep End (Diary of a Wimpy Kid Book 15) | 13 | N/A | 0
+27 | The Cold Start Problem: How to Start and Scale Network Effects | 5 | N/A | 0
+28 | The Deep End (Diary of a Wimpy Kid Book 15) | 11 | N/A | 0

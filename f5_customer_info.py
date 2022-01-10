@@ -16,7 +16,7 @@ def customer_info():
     email = input('Please enter an email address: ')
 
     if email in customers_data:     # If the typed email in our customer's database
-        print('Customer id:', customers_data[email]["id"])
+        print('\nCustomer id:', customers_data[email]["id"])
         print("Customer name:", customers_data[email]['name'])
         print("Phone:", customers_data[email]['phone'])
         print("Email:", email)
