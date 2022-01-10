@@ -10,7 +10,7 @@
 10 | Old School (Diary of a Wimpy Kid #10) | 16 | N/A | 0
 11 | Bunny Mellon Style | 8 | N/A | 0
 12 | The 1619 Project: A New Origin Story | 9 | N/A | 0
-13 | Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience | 13 | N/A | 0
+13 | Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience | 11 | N/A | 0
 14 | The Blue Zones Challenge: A 4-Week Plan for a Longer, Better Life | 11 | 3.5 | 2
 15 | The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life | 9 | 3.0 | 4
 16 | A Brief History of Time | 8 | N/A | 0
@@ -21,8 +21,8 @@
 21 | Harry Potter and the Chamber of Secrets (2) | 6 | N/A | 0
 22 | Harry Potter and the Prisoner of Azkaban (3) | 10 | N/A | 0
 23 | Harry Potter and the Goblet of Fire (4) | 8 | N/A | 0
-24 | Harry Potter and the Half-Blood Prince (6) | 6 | N/A | 0
+24 | Harry Potter and the Half-Blood Prince (6) | 5 | N/A | 0
 25 | Harry Potter and the Deathly Hallows (7) | 7 | 3.0 | 1
 26 | The Big Book of Small Python Projects: 81 Easy Practice Programs | 15 | N/A | 0
 27 | The Cold Start Problem: How to Start and Scale Network Effects | 5 | N/A | 0
-28 | The Deep End (Diary of a Wimpy Kid Book 15) | 11 | N/A | 0
+28 | The Deep End (Diary of a Wimpy Kid Book 15) | 9 | N/A | 0
