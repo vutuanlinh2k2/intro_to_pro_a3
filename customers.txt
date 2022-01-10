@@ -11,4 +11,3 @@
 11 | hazard | 0988674356 | ronaldo@gmail.com | Bi
 12 | John | 0988229381 | zywoo@gmail.com | Planet Earth
 13 | Alpha | 0965212391 | beta@gmail.com | Delta
-14 | Nhim | 0912821023 | nhi@gmail.com | Hanoi
